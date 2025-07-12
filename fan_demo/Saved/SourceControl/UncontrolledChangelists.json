@@ -30,7 +30,13 @@
 				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/hdr/hdr_mat.uasset",
 				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/material/hdr.uasset",
 				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/material/hdr_mat.uasset",
-				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/material/all_opacity.uasset"
+				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/material/all_opacity.uasset",
+				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/fan_mesh/SM_MERGED_NoWingBody.uasset",
+				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/title_system/NewGameMode.uasset",
+				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/fan_mesh/SM_MERGED_allBody.uasset",
+				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/title_system/title_pawn.uasset",
+				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/fan_mesh/wing_pivotzero.uasset",
+				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/fan_mesh/Wing_zeroPivot.uasset"
 			]
 		}
 	]
