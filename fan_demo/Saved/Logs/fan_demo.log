@@ -5942,3 +5942,212 @@ Scale3D: 1.000000 1.000000 1.000000
 [2025.07.12-10.30.25:117][433]AssetCheck: /Game/level/TitleMap Validating asset
 [2025.07.12-10.30.25:117][433]AssetCheck: /Game/title_system/title_pawn Validating asset
 [2025.07.12-10.30.25:117][433]AssetCheck: /Game/fan_mesh/Wing_zeroPivot Validating asset
+[2025.07.12-10.31.20:852][752]LogRenderer: Display: Invalidated clipmap due to WPO threshold change. This can occur due to resolution or FOV changes.
+[2025.07.12-10.32.57:681][500]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.07.12-10.32.57:705][500]LogContentBrowser: Creating deferred item: NewFolder
+[2025.07.12-10.32.57:718][501]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.07.12-10.32.59:270][594]LogContentBrowser: Attempting asset rename: NewFolder -> font
+[2025.07.12-10.32.59:270][594]LogContentBrowser: End creating deferred item NewFolder
+[2025.07.12-10.33.48:871][566]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 P:\리소스\font\public\static\Pretendard-Medium.otf)
+[2025.07.12-10.33.55:494][566]LogSlate: Window 'Font Face Import Options' being destroyed
+[2025.07.12-10.33.55:500][566]Message dialog closed, result: Yes, title: Font Face Import Options, text: Would you like to create a new Font asset using the imported Font Face as its default font?
+[2025.07.12-10.33.55:502][566]LogSlate: FontCache flush requested. Reason: UFontFace::PostEditChangeProperty
+[2025.07.12-10.33.55:506][566]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 P:\리소스\font\public\static\Pretendard-Regular.otf)
+[2025.07.12-10.33.55:591][566]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.12-10.33.55:609][566]LogSlate: Took 0.000192 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.07.12-10.33.55:980][566]LogSlate: Window 'Font Face Import Options' being destroyed
+[2025.07.12-10.33.55:987][566]Message dialog closed, result: Yes, title: Font Face Import Options, text: Would you like to create a new Font asset using the imported Font Face as its default font?
+[2025.07.12-10.33.55:988][566]LogSlate: FontCache flush requested. Reason: UFontFace::PostEditChangeProperty
+[2025.07.12-10.33.55:991][566]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 P:\리소스\font\public\static\Pretendard-SemiBold.otf)
+[2025.07.12-10.33.56:068][566]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.12-10.33.56:083][566]LogSlate: Took 0.000189 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.07.12-10.33.56:363][566]LogSlate: Window 'Font Face Import Options' being destroyed
+[2025.07.12-10.33.56:368][566]Message dialog closed, result: Yes, title: Font Face Import Options, text: Would you like to create a new Font asset using the imported Font Face as its default font?
+[2025.07.12-10.33.56:371][566]LogSlate: FontCache flush requested. Reason: UFontFace::PostEditChangeProperty
+[2025.07.12-10.33.56:374][566]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 P:\리소스\font\public\static\Pretendard-Thin.otf)
+[2025.07.12-10.33.56:451][566]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.12-10.33.56:466][566]LogSlate: Took 0.000198 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.07.12-10.33.56:588][566]LogSlate: Window 'Font Face Import Options' being destroyed
+[2025.07.12-10.33.56:596][566]Message dialog closed, result: Yes, title: Font Face Import Options, text: Would you like to create a new Font asset using the imported Font Face as its default font?
+[2025.07.12-10.33.56:597][566]LogSlate: FontCache flush requested. Reason: UFontFace::PostEditChangeProperty
+[2025.07.12-10.33.56:600][566]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 P:\리소스\font\public\static\Pretendard-Black.otf)
+[2025.07.12-10.33.56:680][566]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.12-10.33.56:694][566]LogSlate: Took 0.000187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.07.12-10.33.56:745][566]LogSlate: Window 'Font Face Import Options' being destroyed
+[2025.07.12-10.33.56:751][566]Message dialog closed, result: Yes, title: Font Face Import Options, text: Would you like to create a new Font asset using the imported Font Face as its default font?
+[2025.07.12-10.33.56:753][566]LogSlate: FontCache flush requested. Reason: UFontFace::PostEditChangeProperty
+[2025.07.12-10.33.56:757][566]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 P:\리소스\font\public\static\Pretendard-Bold.otf)
+[2025.07.12-10.33.56:841][566]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.12-10.33.56:855][566]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.07.12-10.33.56:992][566]LogSlate: Window 'Font Face Import Options' being destroyed
+[2025.07.12-10.33.56:998][566]Message dialog closed, result: Yes, title: Font Face Import Options, text: Would you like to create a new Font asset using the imported Font Face as its default font?
+[2025.07.12-10.33.56:999][566]LogSlate: FontCache flush requested. Reason: UFontFace::PostEditChangeProperty
+[2025.07.12-10.33.57:008][566]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 P:\리소스\font\public\static\Pretendard-ExtraBold.otf)
+[2025.07.12-10.33.57:090][566]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.12-10.33.57:106][566]LogSlate: Took 0.000178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.07.12-10.33.57:175][566]LogSlate: Window 'Font Face Import Options' being destroyed
+[2025.07.12-10.33.57:182][566]Message dialog closed, result: Yes, title: Font Face Import Options, text: Would you like to create a new Font asset using the imported Font Face as its default font?
+[2025.07.12-10.33.57:183][566]LogSlate: FontCache flush requested. Reason: UFontFace::PostEditChangeProperty
+[2025.07.12-10.33.57:188][566]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 P:\리소스\font\public\static\Pretendard-ExtraLight.otf)
+[2025.07.12-10.33.57:279][566]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.12-10.33.57:294][566]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.07.12-10.33.57:381][566]LogSlate: Window 'Font Face Import Options' being destroyed
+[2025.07.12-10.33.57:386][566]Message dialog closed, result: Yes, title: Font Face Import Options, text: Would you like to create a new Font asset using the imported Font Face as its default font?
+[2025.07.12-10.33.57:388][566]LogSlate: FontCache flush requested. Reason: UFontFace::PostEditChangeProperty
+[2025.07.12-10.33.57:393][566]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 P:\리소스\font\public\static\Pretendard-Light.otf)
+[2025.07.12-10.33.57:470][566]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.12-10.33.57:484][566]LogSlate: Took 0.000188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.07.12-10.33.57:571][566]LogSlate: Window 'Font Face Import Options' being destroyed
+[2025.07.12-10.33.57:577][566]Message dialog closed, result: Yes, title: Font Face Import Options, text: Would you like to create a new Font asset using the imported Font Face as its default font?
+[2025.07.12-10.33.57:579][566]LogSlate: FontCache flush requested. Reason: UFontFace::PostEditChangeProperty
+[2025.07.12-10.33.57:642][566]LogSlate: Took 0.000314 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2025.07.12-10.33.57:647][566]LogSlate: Took 0.000129 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2025.07.12-10.33.57:667][566]LogSlate: Took 0.000288 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.07.12-10.33.57:690][566]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.12-10.33.57:694][566]LogAutomationController: Ignoring very large delta of 8.84 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.07.12-10.33.57:698][567]LogSlate: Took 0.000294 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.07.12-10.33.57:704][567]LogSlate: Took 0.000205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2025.07.12-10.33.57:709][567]LogSlate: Took 0.000129 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2025.07.12-10.33.57:720][567]LogSlate: Took 0.000181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.07.12-10.34.07:746][155]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 P:\리소스\font\public\variable\PretendardVariable.ttf)
+[2025.07.12-10.34.10:762][155]LogSlate: Window 'Font Face Import Options' being destroyed
+[2025.07.12-10.34.10:768][155]Message dialog closed, result: Yes, title: Font Face Import Options, text: Would you like to create a new Font asset using the imported Font Face as its default font?
+[2025.07.12-10.34.10:771][155]LogSlate: FontCache flush requested. Reason: UFontFace::PostEditChangeProperty
+[2025.07.12-10.34.10:792][155]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.12-10.34.10:794][155]LogAutomationController: Ignoring very large delta of 3.07 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.07.12-10.34.10:798][156]LogSlate: Took 0.000300 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.07.12-10.34.10:801][156]LogSlate: Took 0.000213 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2025.07.12-10.34.10:805][156]LogSlate: Took 0.000161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.07.12-10.34.10:809][156]LogSlate: Took 0.000129 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2025.07.12-10.34.20:004][701]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2025.07.12-10.34.20:724][701]LogSlate: Window 'Save Content' being destroyed
+[2025.07.12-10.34.20:734][701]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.07.12-10.34.20:809][701]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/font/Pretendard-Black] ([1] browsable assets)...
+[2025.07.12-10.34.20:809][701]OBJ SavePackage: Finished generating thumbnails for package [/Game/font/Pretendard-Black]
+[2025.07.12-10.34.20:809][701]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/font/Pretendard-Black" FILE="../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/font/Pretendard-Black.uasset" SILENT=true
+[2025.07.12-10.34.20:811][701]LogSavePackage: Moving output files for package: /Game/font/Pretendard-Black
+[2025.07.12-10.34.20:811][701]LogSavePackage: Moving '../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Saved/Pretendard-BlackE7D7D15B4CA4F4AF6FA4A6A8BC1B6A08.tmp' to '../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/font/Pretendard-Black.uasset'
+[2025.07.12-10.34.20:812][701]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/font/Pretendard-Black_Font] ([1] browsable assets)...
+[2025.07.12-10.34.20:812][701]OBJ SavePackage: Finished generating thumbnails for package [/Game/font/Pretendard-Black_Font]
+[2025.07.12-10.34.20:812][701]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/font/Pretendard-Black_Font" FILE="../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/font/Pretendard-Black_Font.uasset" SILENT=true
+[2025.07.12-10.34.20:813][701]LogSavePackage: Moving output files for package: /Game/font/Pretendard-Black_Font
+[2025.07.12-10.34.20:813][701]LogSavePackage: Moving '../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Saved/Pretendard-Black_FontB26370944BB5E11A692C34A69A0D6923.tmp' to '../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/font/Pretendard-Black_Font.uasset'
+[2025.07.12-10.34.20:814][701]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/font/Pretendard-Bold] ([1] browsable assets)...
+[2025.07.12-10.34.20:814][701]OBJ SavePackage: Finished generating thumbnails for package [/Game/font/Pretendard-Bold]
+[2025.07.12-10.34.20:814][701]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/font/Pretendard-Bold" FILE="../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/font/Pretendard-Bold.uasset" SILENT=true
+[2025.07.12-10.34.20:815][701]LogSavePackage: Moving output files for package: /Game/font/Pretendard-Bold
+[2025.07.12-10.34.20:815][701]LogSavePackage: Moving '../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Saved/Pretendard-Bold93EB7D9F41CC478E0DC5A28870AA16C0.tmp' to '../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/font/Pretendard-Bold.uasset'
+[2025.07.12-10.34.20:815][701]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/font/Pretendard-Bold_Font] ([1] browsable assets)...
+[2025.07.12-10.34.20:816][701]OBJ SavePackage: Finished generating thumbnails for package [/Game/font/Pretendard-Bold_Font]
+[2025.07.12-10.34.20:816][701]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/font/Pretendard-Bold_Font" FILE="../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/font/Pretendard-Bold_Font.uasset" SILENT=true
+[2025.07.12-10.34.20:816][701]LogSavePackage: Moving output files for package: /Game/font/Pretendard-Bold_Font
+[2025.07.12-10.34.20:816][701]LogSavePackage: Moving '../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Saved/Pretendard-Bold_FontD3D7EEA148BF0614A854858561BE0687.tmp' to '../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/font/Pretendard-Bold_Font.uasset'
+[2025.07.12-10.34.20:817][701]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/font/Pretendard-ExtraBold] ([1] browsable assets)...
+[2025.07.12-10.34.20:817][701]OBJ SavePackage: Finished generating thumbnails for package [/Game/font/Pretendard-ExtraBold]
+[2025.07.12-10.34.20:817][701]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/font/Pretendard-ExtraBold" FILE="../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/font/Pretendard-ExtraBold.uasset" SILENT=true
+[2025.07.12-10.34.20:818][701]LogSavePackage: Moving output files for package: /Game/font/Pretendard-ExtraBold
+[2025.07.12-10.34.20:818][701]LogSavePackage: Moving '../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Saved/Pretendard-ExtraBold9D9759F545E76C7C7B96A4A882013C05.tmp' to '../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/font/Pretendard-ExtraBold.uasset'
+[2025.07.12-10.34.20:819][701]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/font/Pretendard-ExtraBold_Font] ([1] browsable assets)...
+[2025.07.12-10.34.20:819][701]OBJ SavePackage: Finished generating thumbnails for package [/Game/font/Pretendard-ExtraBold_Font]
+[2025.07.12-10.34.20:819][701]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/font/Pretendard-ExtraBold_Font" FILE="../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/font/Pretendard-ExtraBold_Font.uasset" SILENT=true
+[2025.07.12-10.34.20:819][701]LogSavePackage: Moving output files for package: /Game/font/Pretendard-ExtraBold_Font
+[2025.07.12-10.34.20:819][701]LogSavePackage: Moving '../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Saved/Pretendard-ExtraBold_Font51B4B8B441CD625FD27BF0B8AB574B6D.tmp' to '../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/font/Pretendard-ExtraBold_Font.uasset'
+[2025.07.12-10.34.20:820][701]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/font/Pretendard-ExtraLight] ([1] browsable assets)...
+[2025.07.12-10.34.20:820][701]OBJ SavePackage: Finished generating thumbnails for package [/Game/font/Pretendard-ExtraLight]
+[2025.07.12-10.34.20:820][701]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/font/Pretendard-ExtraLight" FILE="../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/font/Pretendard-ExtraLight.uasset" SILENT=true
+[2025.07.12-10.34.20:822][701]LogSavePackage: Moving output files for package: /Game/font/Pretendard-ExtraLight
+[2025.07.12-10.34.20:822][701]LogSavePackage: Moving '../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Saved/Pretendard-ExtraLight59875D2B4307B2BBAF22F2B975D4C6B3.tmp' to '../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/font/Pretendard-ExtraLight.uasset'
+[2025.07.12-10.34.20:823][701]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/font/Pretendard-ExtraLight_Font] ([1] browsable assets)...
+[2025.07.12-10.34.20:823][701]OBJ SavePackage: Finished generating thumbnails for package [/Game/font/Pretendard-ExtraLight_Font]
+[2025.07.12-10.34.20:823][701]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/font/Pretendard-ExtraLight_Font" FILE="../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/font/Pretendard-ExtraLight_Font.uasset" SILENT=true
+[2025.07.12-10.34.20:824][701]LogSavePackage: Moving output files for package: /Game/font/Pretendard-ExtraLight_Font
+[2025.07.12-10.34.20:824][701]LogSavePackage: Moving '../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Saved/Pretendard-ExtraLight_FontE8472774440DEE86525DA7B526B573E2.tmp' to '../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/font/Pretendard-ExtraLight_Font.uasset'
+[2025.07.12-10.34.20:824][701]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/font/Pretendard-Light] ([1] browsable assets)...
+[2025.07.12-10.34.20:824][701]OBJ SavePackage: Finished generating thumbnails for package [/Game/font/Pretendard-Light]
+[2025.07.12-10.34.20:824][701]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/font/Pretendard-Light" FILE="../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/font/Pretendard-Light.uasset" SILENT=true
+[2025.07.12-10.34.20:825][701]LogSavePackage: Moving output files for package: /Game/font/Pretendard-Light
+[2025.07.12-10.34.20:825][701]LogSavePackage: Moving '../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Saved/Pretendard-LightCBA2E25A4F263E35AFB2D8B0689A46FF.tmp' to '../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/font/Pretendard-Light.uasset'
+[2025.07.12-10.34.20:826][701]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/font/Pretendard-Light_Font] ([1] browsable assets)...
+[2025.07.12-10.34.20:826][701]OBJ SavePackage: Finished generating thumbnails for package [/Game/font/Pretendard-Light_Font]
+[2025.07.12-10.34.20:826][701]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/font/Pretendard-Light_Font" FILE="../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/font/Pretendard-Light_Font.uasset" SILENT=true
+[2025.07.12-10.34.20:827][701]LogSavePackage: Moving output files for package: /Game/font/Pretendard-Light_Font
+[2025.07.12-10.34.20:827][701]LogSavePackage: Moving '../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Saved/Pretendard-Light_FontC81E103A4C248A0674AC5A8A8BE6969B.tmp' to '../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/font/Pretendard-Light_Font.uasset'
+[2025.07.12-10.34.20:827][701]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/font/Pretendard-Medium] ([1] browsable assets)...
+[2025.07.12-10.34.20:827][701]OBJ SavePackage: Finished generating thumbnails for package [/Game/font/Pretendard-Medium]
+[2025.07.12-10.34.20:827][701]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/font/Pretendard-Medium" FILE="../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/font/Pretendard-Medium.uasset" SILENT=true
+[2025.07.12-10.34.20:828][701]LogSavePackage: Moving output files for package: /Game/font/Pretendard-Medium
+[2025.07.12-10.34.20:828][701]LogSavePackage: Moving '../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Saved/Pretendard-Medium8CDDA97E48ED5E262AF4CD8810F4C6EA.tmp' to '../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/font/Pretendard-Medium.uasset'
+[2025.07.12-10.34.20:829][701]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/font/Pretendard-Medium_Font] ([1] browsable assets)...
+[2025.07.12-10.34.20:829][701]OBJ SavePackage: Finished generating thumbnails for package [/Game/font/Pretendard-Medium_Font]
+[2025.07.12-10.34.20:829][701]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/font/Pretendard-Medium_Font" FILE="../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/font/Pretendard-Medium_Font.uasset" SILENT=true
+[2025.07.12-10.34.20:829][701]LogSavePackage: Moving output files for package: /Game/font/Pretendard-Medium_Font
+[2025.07.12-10.34.20:829][701]LogSavePackage: Moving '../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Saved/Pretendard-Medium_FontECB4B8E147B90F5EB2662C8E752D128D.tmp' to '../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/font/Pretendard-Medium_Font.uasset'
+[2025.07.12-10.34.20:830][701]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/font/Pretendard-Regular] ([1] browsable assets)...
+[2025.07.12-10.34.20:830][701]OBJ SavePackage: Finished generating thumbnails for package [/Game/font/Pretendard-Regular]
+[2025.07.12-10.34.20:830][701]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/font/Pretendard-Regular" FILE="../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/font/Pretendard-Regular.uasset" SILENT=true
+[2025.07.12-10.34.20:831][701]LogSavePackage: Moving output files for package: /Game/font/Pretendard-Regular
+[2025.07.12-10.34.20:831][701]LogSavePackage: Moving '../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Saved/Pretendard-Regular8FCF95864D96C0502A965DB58D11A8F9.tmp' to '../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/font/Pretendard-Regular.uasset'
+[2025.07.12-10.34.20:831][701]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/font/Pretendard-Regular_Font] ([1] browsable assets)...
+[2025.07.12-10.34.20:831][701]OBJ SavePackage: Finished generating thumbnails for package [/Game/font/Pretendard-Regular_Font]
+[2025.07.12-10.34.20:831][701]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/font/Pretendard-Regular_Font" FILE="../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/font/Pretendard-Regular_Font.uasset" SILENT=true
+[2025.07.12-10.34.20:832][701]LogSavePackage: Moving output files for package: /Game/font/Pretendard-Regular_Font
+[2025.07.12-10.34.20:832][701]LogSavePackage: Moving '../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Saved/Pretendard-Regular_FontACEAF881410B0D79357EB9AE3DCF7B66.tmp' to '../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/font/Pretendard-Regular_Font.uasset'
+[2025.07.12-10.34.20:833][701]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/font/Pretendard-SemiBold] ([1] browsable assets)...
+[2025.07.12-10.34.20:833][701]OBJ SavePackage: Finished generating thumbnails for package [/Game/font/Pretendard-SemiBold]
+[2025.07.12-10.34.20:833][701]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/font/Pretendard-SemiBold" FILE="../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/font/Pretendard-SemiBold.uasset" SILENT=true
+[2025.07.12-10.34.20:834][701]LogSavePackage: Moving output files for package: /Game/font/Pretendard-SemiBold
+[2025.07.12-10.34.20:834][701]LogSavePackage: Moving '../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Saved/Pretendard-SemiBold2C7701DC4D1478D88968B7B8106E22FF.tmp' to '../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/font/Pretendard-SemiBold.uasset'
+[2025.07.12-10.34.20:835][701]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/font/Pretendard-SemiBold_Font] ([1] browsable assets)...
+[2025.07.12-10.34.20:835][701]OBJ SavePackage: Finished generating thumbnails for package [/Game/font/Pretendard-SemiBold_Font]
+[2025.07.12-10.34.20:835][701]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/font/Pretendard-SemiBold_Font" FILE="../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/font/Pretendard-SemiBold_Font.uasset" SILENT=true
+[2025.07.12-10.34.20:835][701]LogSavePackage: Moving output files for package: /Game/font/Pretendard-SemiBold_Font
+[2025.07.12-10.34.20:835][701]LogSavePackage: Moving '../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Saved/Pretendard-SemiBold_FontC98800C2485598F713EBB4B50CBCA1DE.tmp' to '../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/font/Pretendard-SemiBold_Font.uasset'
+[2025.07.12-10.34.20:836][701]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/font/Pretendard-Thin] ([1] browsable assets)...
+[2025.07.12-10.34.20:836][701]OBJ SavePackage: Finished generating thumbnails for package [/Game/font/Pretendard-Thin]
+[2025.07.12-10.34.20:836][701]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/font/Pretendard-Thin" FILE="../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/font/Pretendard-Thin.uasset" SILENT=true
+[2025.07.12-10.34.20:837][701]LogSavePackage: Moving output files for package: /Game/font/Pretendard-Thin
+[2025.07.12-10.34.20:837][701]LogSavePackage: Moving '../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Saved/Pretendard-Thin6DFCB5354F0B4323FD21918459DC5436.tmp' to '../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/font/Pretendard-Thin.uasset'
+[2025.07.12-10.34.20:839][701]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/font/Pretendard-Thin_Font] ([1] browsable assets)...
+[2025.07.12-10.34.20:839][701]OBJ SavePackage: Finished generating thumbnails for package [/Game/font/Pretendard-Thin_Font]
+[2025.07.12-10.34.20:839][701]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/font/Pretendard-Thin_Font" FILE="../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/font/Pretendard-Thin_Font.uasset" SILENT=true
+[2025.07.12-10.34.20:839][701]LogSavePackage: Moving output files for package: /Game/font/Pretendard-Thin_Font
+[2025.07.12-10.34.20:839][701]LogSavePackage: Moving '../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Saved/Pretendard-Thin_Font3B75439445B95606EEAF8F831226672D.tmp' to '../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/font/Pretendard-Thin_Font.uasset'
+[2025.07.12-10.34.20:840][701]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/font/PretendardVariable] ([1] browsable assets)...
+[2025.07.12-10.34.20:840][701]OBJ SavePackage: Finished generating thumbnails for package [/Game/font/PretendardVariable]
+[2025.07.12-10.34.20:840][701]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/font/PretendardVariable" FILE="../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/font/PretendardVariable.uasset" SILENT=true
+[2025.07.12-10.34.20:842][701]LogSavePackage: Moving output files for package: /Game/font/PretendardVariable
+[2025.07.12-10.34.20:842][701]LogSavePackage: Moving '../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Saved/PretendardVariableB04CF6C748CF17163CE364A83D4E4E5D.tmp' to '../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/font/PretendardVariable.uasset'
+[2025.07.12-10.34.20:843][701]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/font/PretendardVariable_Font] ([1] browsable assets)...
+[2025.07.12-10.34.20:843][701]OBJ SavePackage: Finished generating thumbnails for package [/Game/font/PretendardVariable_Font]
+[2025.07.12-10.34.20:843][701]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/font/PretendardVariable_Font" FILE="../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/font/PretendardVariable_Font.uasset" SILENT=true
+[2025.07.12-10.34.20:843][701]LogSavePackage: Moving output files for package: /Game/font/PretendardVariable_Font
+[2025.07.12-10.34.20:843][701]LogSavePackage: Moving '../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Saved/PretendardVariable_Font0C5C14A746F9E0280D19A384B6D4C998.tmp' to '../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/font/PretendardVariable_Font.uasset'
+[2025.07.12-10.34.20:854][701]LogFileHelpers: InternalPromptForCheckoutAndSave took 119.573 ms (total: 2.13 sec)
+[2025.07.12-10.34.20:920][701]LogContentValidation: Display: Starting to validate 20 assets
+[2025.07.12-10.34.20:920][701]LogContentValidation: Enabled validators:
+[2025.07.12-10.34.20:920][701]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.07.12-10.34.20:920][701]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.07.12-10.34.20:920][701]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.07.12-10.34.20:920][701]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.07.12-10.34.20:920][701]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.07.12-10.34.20:920][701]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.07.12-10.34.20:922][701]AssetCheck: /Game/font/Pretendard-Black Validating asset
+[2025.07.12-10.34.20:922][701]AssetCheck: /Game/font/Pretendard-Black_Font Validating asset
+[2025.07.12-10.34.20:922][701]AssetCheck: /Game/font/Pretendard-Bold Validating asset
+[2025.07.12-10.34.20:922][701]AssetCheck: /Game/font/Pretendard-Bold_Font Validating asset
+[2025.07.12-10.34.20:922][701]AssetCheck: /Game/font/Pretendard-ExtraBold Validating asset
+[2025.07.12-10.34.20:922][701]AssetCheck: /Game/font/Pretendard-ExtraBold_Font Validating asset
+[2025.07.12-10.34.20:922][701]AssetCheck: /Game/font/Pretendard-ExtraLight Validating asset
+[2025.07.12-10.34.20:922][701]AssetCheck: /Game/font/Pretendard-ExtraLight_Font Validating asset
+[2025.07.12-10.34.20:922][701]AssetCheck: /Game/font/Pretendard-Light Validating asset
+[2025.07.12-10.34.20:922][701]AssetCheck: /Game/font/Pretendard-Light_Font Validating asset
+[2025.07.12-10.34.20:922][701]AssetCheck: /Game/font/Pretendard-Medium Validating asset
+[2025.07.12-10.34.20:922][701]AssetCheck: /Game/font/Pretendard-Medium_Font Validating asset
+[2025.07.12-10.34.20:922][701]AssetCheck: /Game/font/Pretendard-Regular Validating asset
+[2025.07.12-10.34.20:922][701]AssetCheck: /Game/font/Pretendard-Regular_Font Validating asset
+[2025.07.12-10.34.20:922][701]AssetCheck: /Game/font/Pretendard-SemiBold Validating asset
+[2025.07.12-10.34.20:922][701]AssetCheck: /Game/font/Pretendard-SemiBold_Font Validating asset
+[2025.07.12-10.34.20:922][701]AssetCheck: /Game/font/Pretendard-Thin Validating asset
+[2025.07.12-10.34.20:922][701]AssetCheck: /Game/font/Pretendard-Thin_Font Validating asset
+[2025.07.12-10.34.20:922][701]AssetCheck: /Game/font/PretendardVariable Validating asset
+[2025.07.12-10.34.20:922][701]AssetCheck: /Game/font/PretendardVariable_Font Validating asset
