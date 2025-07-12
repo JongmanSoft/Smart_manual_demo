@@ -22,7 +22,12 @@
 				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/fan_mesh/FrontHead.uasset",
 				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/fan_mesh/Material_001.uasset",
 				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/level/PartsDescMap.umap",
-				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/level/TitleMap.umap"
+				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/level/TitleMap.umap",
+				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/hdr/hdr.uasset",
+				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/hdr/hdr_mat.uasset",
+				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/material/hdr.uasset",
+				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/material/hdr_mat.uasset",
+				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/material/all_opacity.uasset"
 			]
 		}
 	]
