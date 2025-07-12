@@ -5,7 +5,22 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/StarterContent/Architecture/Floor_400x400.uasset"
+				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/fan_mesh/Back.uasset",
+				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/fan_mesh/BackHead.uasset",
+				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/fan_mesh/Body.uasset",
+				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/fan_mesh/cap.uasset",
+				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/fan_mesh/fan_base.uasset",
+				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/fan_mesh/Wing.uasset",
+				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/fan_mesh/Rotation.uasset",
+				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/fan_mesh/Power3.uasset",
+				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/fan_mesh/Power2.uasset",
+				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/fan_mesh/Partz.uasset",
+				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/fan_mesh/Power1.uasset",
+				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/fan_mesh/Off.uasset",
+				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/fan_mesh/Neck.uasset",
+				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/fan_mesh/FrontHead.uasset",
+				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/fan_mesh/Material_001.uasset"
 			]
 		}
 	]
