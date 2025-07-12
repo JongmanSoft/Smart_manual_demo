@@ -23,8 +23,6 @@
 				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/fan_mesh/Material_001.uasset",
 				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/level/PartsDescMap.umap",
 				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/level/TitleMap.umap",
-				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/hdr/hdr.uasset",
-				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/hdr/hdr_mat.uasset",
 				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/material/hdr.uasset",
 				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/material/hdr_mat.uasset",
 				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/material/all_opacity.uasset",
@@ -32,7 +30,6 @@
 				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/title_system/NewGameMode.uasset",
 				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/fan_mesh/SM_MERGED_allBody.uasset",
 				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/title_system/title_pawn.uasset",
-				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/fan_mesh/wing_pivotzero.uasset",
 				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/fan_mesh/Wing_zeroPivot.uasset",
 				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/font/Pretendard-Black.uasset",
 				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/font/Pretendard-Black_Font.uasset",
@@ -55,7 +52,13 @@
 				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/font/PretendardVariable.uasset",
 				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/font/PretendardVariable_Font.uasset",
 				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/title_system/title_ui.uasset",
-				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/DemoGameInstance.uasset"
+				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/DemoGameInstance.uasset",
+				"P:/UE_5.5/Engine/Plugins/Enterprise/DatasmithContent/Content/Materials/AliasReference.uasset",
+				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/parts_desc_system/completion_pawn.uasset",
+				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/parts_desc_system/emmsive_mat.uasset",
+				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/hdr/hdr.uasset",
+				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/hdr/hdr_mat.uasset",
+				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/fan_mesh/wing_pivotzero.uasset"
 			]
 		}
 	]
