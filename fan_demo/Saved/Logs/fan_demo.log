@@ -1840,3 +1840,55 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.07.12-09.26.24:674][882]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
 [2025.07.12-09.26.26:460][989]LogContentBrowser: Attempting asset rename: NewFolder -> level
 [2025.07.12-09.26.26:461][989]LogContentBrowser: End creating deferred item NewFolder
+[2025.07.12-09.26.41:394][874]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2025.07.12-09.26.41:400][874]LogContentBrowser: Creating deferred item: NewWorld
+[2025.07.12-09.26.41:457][876]LogContentBrowser: Renaming the item being created (Deferred Item: NewWorld).
+[2025.07.12-09.26.44:965][ 83]LogContentBrowser: Attempting asset rename: NewWorld -> title
+[2025.07.12-09.26.44:965][ 83]LogChaosDD: Creating Chaos Debug Draw Scene for world title
+[2025.07.12-09.26.44:967][ 83]LogContentBrowser: End creating deferred item NewWorld
+[2025.07.12-09.26.46:368][164]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2025.07.12-09.26.46:374][164]LogContentBrowser: Creating deferred item: NewWorld
+[2025.07.12-09.26.46:388][165]LogContentBrowser: Renaming the item being created (Deferred Item: NewWorld).
+[2025.07.12-09.26.51:878][491]LogContentBrowser: Attempting asset rename: NewWorld -> NewWorld
+[2025.07.12-09.26.51:878][491]LogChaosDD: Creating Chaos Debug Draw Scene for world NewWorld
+[2025.07.12-09.26.51:880][491]LogContentBrowser: End creating deferred item NewWorld
+[2025.07.12-09.27.25:672][512]LogContentBrowser: Attempting asset rename: NewWorld -> PartsDescMap
+[2025.07.12-09.27.25:770][512]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.07.12-09.27.25:770][512]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/level/PartsDescMap" FILE="../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/level/PartsDescMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.07.12-09.27.25:786][512]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2025.07.12-09.27.25:790][512]LogSavePackage: Moving output files for package: /Game/level/PartsDescMap
+[2025.07.12-09.27.25:790][512]LogSavePackage: Moving '../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Saved/PartsDescMapB539EB1F4C976B2D6FA4D6B00703D894.tmp' to '../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/level/PartsDescMap.umap'
+[2025.07.12-09.27.25:792][512]LogFileHelpers: Saving map 'PartsDescMap' took 0.021
+[2025.07.12-09.27.25:792][512]LogFileHelpers: InternalPromptForCheckoutAndSave took 21.139 ms (total: 399.817 ms)
+[2025.07.12-09.27.25:813][512]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2025.07.12-09.27.25:825][512]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2025.07.12-09.27.25:837][512]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2025.07.12-09.27.25:911][512]LogContentValidation: Display: Starting to validate 1 assets
+[2025.07.12-09.27.25:911][512]LogContentValidation: Enabled validators:
+[2025.07.12-09.27.25:911][512]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.07.12-09.27.25:911][512]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.07.12-09.27.25:911][512]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.07.12-09.27.25:911][512]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.07.12-09.27.25:911][512]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.07.12-09.27.25:911][512]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.07.12-09.27.25:911][512]AssetCheck: /Game/level/PartsDescMap Validating asset
+[2025.07.12-09.27.32:916][930]LogContentBrowser: Attempting asset rename: title -> TitleMap
+[2025.07.12-09.27.33:006][930]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.07.12-09.27.33:007][930]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/level/TitleMap" FILE="../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/level/TitleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.07.12-09.27.33:019][930]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2025.07.12-09.27.33:022][930]LogSavePackage: Moving output files for package: /Game/level/TitleMap
+[2025.07.12-09.27.33:022][930]LogSavePackage: Moving '../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Saved/TitleMap93BA4AA644AF473452BB8D9C59D99E36.tmp' to '../../../../metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/level/TitleMap.umap'
+[2025.07.12-09.27.33:023][930]LogFileHelpers: Saving map 'TitleMap' took 0.017
+[2025.07.12-09.27.33:023][930]LogFileHelpers: InternalPromptForCheckoutAndSave took 16.697 ms (total: 416.514 ms)
+[2025.07.12-09.27.33:045][930]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2025.07.12-09.27.33:057][930]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2025.07.12-09.27.33:070][930]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2025.07.12-09.27.33:130][930]LogContentValidation: Display: Starting to validate 1 assets
+[2025.07.12-09.27.33:130][930]LogContentValidation: Enabled validators:
+[2025.07.12-09.27.33:130][930]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.07.12-09.27.33:130][930]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.07.12-09.27.33:130][930]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.07.12-09.27.33:130][930]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.07.12-09.27.33:130][930]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.07.12-09.27.33:130][930]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.07.12-09.27.33:132][930]AssetCheck: /Game/level/TitleMap Validating asset
