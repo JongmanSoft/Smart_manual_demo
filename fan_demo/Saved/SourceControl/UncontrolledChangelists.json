@@ -5,6 +5,9 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/User/Unreal Engine/Smart_manual_demo/fan_demo/Content/level/ManualMap.umap",
+				"C:/Users/User/Unreal Engine/Smart_manual_demo/fan_demo/Content/ManualBlueprints/BP_PartBase.uasset",
+				"C:/Users/User/Unreal Engine/Smart_manual_demo/fan_demo/Content/ManualBlueprints/BP_Wing.uasset",
 				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/StarterContent/Architecture/Floor_400x400.uasset",
 				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/fan_mesh/Back.uasset",
 				"P:/metaverse_studio/fan_demo/Smart_manual_demo/fan_demo/Content/fan_mesh/BackHead.uasset",
