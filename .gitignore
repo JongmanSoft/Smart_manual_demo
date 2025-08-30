@@ -52,6 +52,8 @@ Plugins/**/Binaries/*
 # Builds
 Build/*
 
+fan_demo/Saved/
+
 # Whitelist PakBlacklist-<BuildConfiguration>.txt files
 !Build/*/
 Build/*/**
