@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "smart_manual",
+			"Path": "..\\Source\\smart_manual.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "smart_manualEditor",
+			"Path": "..\\Source\\smart_manualEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

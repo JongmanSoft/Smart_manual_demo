@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "p:\\metaverse_studio\\fan_demo\\smart_manual_demo\\smart_manual_mobile\\smart_manual\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\smart_manual\\permoduleinline.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "p:\\metaverse_studio\\fan_demo\\smart_manual_demo\\smart_manual_mobile\\smart_manual\\intermediate\\build\\win64\\x64\\smart_manualeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "p:\\metaverse_studio\\fan_demo\\smart_manual_demo\\smart_manual_mobile\\smart_manual\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\smart_manual\\definitions.smart_manual.h",
+            "p:\\ue_5.5\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

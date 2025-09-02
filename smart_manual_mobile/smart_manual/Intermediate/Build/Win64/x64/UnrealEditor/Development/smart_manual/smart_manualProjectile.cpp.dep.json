@@ -1,0 +1,23 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "p:\\metaverse_studio\\fan_demo\\smart_manual_demo\\smart_manual_mobile\\smart_manual\\source\\smart_manual\\smart_manualprojectile.cpp",
+        "ProvidedModule": "",
+        "PCH": "p:\\metaverse_studio\\fan_demo\\smart_manual_demo\\smart_manual_mobile\\smart_manual\\intermediate\\build\\win64\\x64\\smart_manualeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "p:\\metaverse_studio\\fan_demo\\smart_manual_demo\\smart_manual_mobile\\smart_manual\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\smart_manual\\definitions.smart_manual.h",
+            "p:\\metaverse_studio\\fan_demo\\smart_manual_demo\\smart_manual_mobile\\smart_manual\\source\\smart_manual\\smart_manualprojectile.h",
+            "p:\\metaverse_studio\\fan_demo\\smart_manual_demo\\smart_manual_mobile\\smart_manual\\intermediate\\build\\win64\\unrealeditor\\inc\\smart_manual\\uht\\smart_manualprojectile.generated.h",
+            "p:\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\projectilemovementcomponent.h",
+            "p:\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\movementcomponent.h",
+            "p:\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\movementcomponent.generated.h",
+            "p:\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\projectilemovementcomponent.generated.h",
+            "p:\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\components\\spherecomponent.h",
+            "p:\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
+            "p:\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\shapecomponent.generated.h",
+            "p:\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\spherecomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
