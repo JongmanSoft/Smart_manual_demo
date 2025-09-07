@@ -21,10 +21,13 @@ public:
     virtual void Tick(float DeltaTime) override;
 
     UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Component")
-    UStaticMeshComponent* MeshComp;
+    USceneComponent* RootComp;
 
     UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Component")
     USceneComponent* PivotComp;
+
+    UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Component")
+    UStaticMeshComponent* MeshComp;
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Move")
     bool bEnableMove = false;
