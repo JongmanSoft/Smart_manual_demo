@@ -30,10 +30,10 @@ public:
     UStaticMeshComponent* MeshComp;
 
     UPROPERTY(EditAnywhere, Category = "Desc")
-    FText Desc_text;
+    FString Desc_text;
 
     UPROPERTY(EditAnywhere, Category = "Desc")
-    FText cheak_list_text;
+    FString cheak_list_text;
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Move")
     bool bEnableMove = false;

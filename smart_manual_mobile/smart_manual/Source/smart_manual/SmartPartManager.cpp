@@ -77,9 +77,9 @@ void ASmartPartManager::DeactivateAll()
     CurrentIndex = -1;
 }
 
-TArray<FText> ASmartPartManager::get_cheak_list_desc()
+TArray<FString> ASmartPartManager::get_cheak_list_desc()
 {
-    TArray<FText> cheak_list_parts;
+    TArray<FString> cheak_list_parts;
     cheak_list_parts.Reset();
     for (ASmartPartActor* Part : PartList)
     {
@@ -92,22 +92,10 @@ TArray<FText> ASmartPartManager::get_cheak_list_desc()
     return cheak_list_parts;
 }
 
-const FText& ASmartPartManager::get_current_desc_text()
+const FString& ASmartPartManager::get_current_desc_text()
 {
 
-    UE_LOG(LogTemp, Log, TEXT("%s"), *PartList[CurrentIndex]->Desc_text.ToString());
     return PartList[CurrentIndex]->Desc_text;
 }
 
- ASmartPartActor& ASmartPartManager::current_part()  
- {  
-    if (PartList.IsValidIndex(CurrentIndex) && PartList[CurrentIndex])  
-    {  
-        return *PartList[CurrentIndex];  
-    }  
-    else  
-    {  
-        UE_LOG(LogTemp, Error, TEXT("Invalid CurrentIndex or PartList element is null."));  
-        throw std::runtime_error("Invalid CurrentIndex or PartList element is null.");  
-    }  
- }
+

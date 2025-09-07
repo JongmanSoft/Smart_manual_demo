@@ -38,4 +38,13 @@ public:
 
     UFUNCTION(BlueprintCallable, Category = "Parts")
     void DeactivateAll();
+
+    UFUNCTION(BlueprintCallable, Category = "desc")
+    TArray<FText> get_cheak_list_desc();
+
+    UFUNCTION(BlueprintCallable, Category = "desc")
+    const FText& get_current_desc_text();
+
+    
+
 };

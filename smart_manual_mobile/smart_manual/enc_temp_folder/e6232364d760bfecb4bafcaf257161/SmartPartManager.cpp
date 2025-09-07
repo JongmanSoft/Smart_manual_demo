@@ -76,3 +76,27 @@ void ASmartPartManager::DeactivateAll()
     }
     CurrentIndex = -1;
 }
+
+TArray<FText> ASmartPartManager::get_cheak_list_desc()
+{
+    TArray<FText> cheak_list_parts;
+    cheak_list_parts.Reset();
+    for (ASmartPartActor* Part : PartList)
+    {
+        if (Part)
+        {
+            cheak_list_parts.Add(Part->cheak_list_text);
+        }
+    }
+
+    return cheak_list_parts;
+}
+
+const FText& ASmartPartManager::get_current_desc_text()
+{
+
+    UE_LOG(LogTemp, Log, TEXT("%s"), *PartList[CurrentIndex]->Desc_text.ToString());
+    return PartList[CurrentIndex]->Desc_text;
+}
+
+
