@@ -10,11 +10,14 @@ ASmartPartActor::ASmartPartActor()
 {
     PrimaryActorTick.bCanEverTick = true;
 
-    PivotComp = CreateDefaultSubobject<USceneComponent>(TEXT("PivotComp"));
-    RootComponent = PivotComp;
+    RootComp = CreateDefaultSubobject<USceneComponent>(TEXT("RootComp"));
+    RootComponent = RootComp;
 
     MeshComp = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("MeshComp"));
-    MeshComp->SetupAttachment(PivotComp);
+    MeshComp->SetupAttachment(RootComp);
+
+    PivotComp = CreateDefaultSubobject<USceneComponent>(TEXT("PivotComp"));
+    PivotComp->SetupAttachment(RootComp);
 }
 
 // Called when the game starts or when spawned
@@ -58,8 +61,10 @@ void ASmartPartActor::Move(float DeltaTime)
 
 void ASmartPartActor::Rotate(float DeltaTime)
 {
-    FRotator DeltaRot = FRotator::ZeroRotator;
+    if (!MeshComp || !PivotComp) return;
+
     float Step = RotationSpeed * DeltaTime;
+    FRotator DeltaRot = FRotator::ZeroRotator;
 
     if (bRotateX && FMath::Abs(CurrentRotationX) < FMath::Abs(TargetRotation))
     {
@@ -77,7 +82,14 @@ void ASmartPartActor::Rotate(float DeltaTime)
         CurrentRotationZ += Step;
     }
 
-    PivotComp->AddLocalRotation(DeltaRot);
+    FVector MeshLoc = MeshComp->GetRelativeLocation();
+    FVector PivotLoc = PivotComp->GetRelativeLocation();
+
+    FVector Offset = MeshLoc - PivotLoc;
+    Offset = DeltaRot.RotateVector(Offset);
+
+    MeshComp->SetRelativeLocation(PivotLoc + Offset);
+    MeshComp->AddLocalRotation(DeltaRot);
 
     if ((bRotateX && FMath::Abs(CurrentRotationX) >= FMath::Abs(TargetRotation)) ||
         (bRotateY && FMath::Abs(CurrentRotationY) >= FMath::Abs(TargetRotation)) ||
