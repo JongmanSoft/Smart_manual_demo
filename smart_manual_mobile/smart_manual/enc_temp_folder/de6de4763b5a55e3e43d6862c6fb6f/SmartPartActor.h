@@ -29,12 +29,6 @@ public:
     UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Component")
     UStaticMeshComponent* MeshComp;
 
-    UPROPERTY(EditAnywhere, Category = "Desc")
-    FText Desc_text;
-
-    UPROPERTY(EditAnywhere, Category = "Desc")
-    FText cheak_list_text;
-
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Move")
     bool bEnableMove = false;
 
@@ -70,7 +64,5 @@ private:
 
     void Move(float DeltaTime);
     void Rotate(float DeltaTime);
-
-  
 
 };
