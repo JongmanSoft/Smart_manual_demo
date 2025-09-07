@@ -29,6 +29,8 @@ void ASmartPartActor::BeginPlay()
     SetActorLocation(CurrentLocation);
 
     CurrentRotationX = CurrentRotationY = CurrentRotationZ = 0.f;
+
+    SetActorTickEnabled(false);
 }
 
 // Called every frame

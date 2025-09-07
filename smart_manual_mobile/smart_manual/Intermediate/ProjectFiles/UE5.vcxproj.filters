@@ -10753,33 +10753,6 @@
     <None Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\LightWeightInstancesEditor\Resources\Icon128.png">
       <Filter>Plugins\LightWeightInstancesEditor\Resources</Filter>
     </None>
-    <Filter Include="Plugins\Marketplace">
-      <UniqueIdentifier>{1E520605-3A0C-397B-A124-81C6D67B82FE}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Plugins\Marketplace\MetaHuman_5.5">
-      <UniqueIdentifier>{58CC5B63-A672-393F-9E79-42121B421487}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\MetaHuman_5.5\MetaHuman.uplugin">
-      <Filter>Plugins\Marketplace\MetaHuman_5.5</Filter>
-    </None>
-    <Filter Include="Plugins\Marketplace\MetaHuman_5.5\Resources">
-      <UniqueIdentifier>{F2653DCA-FAC5-30E3-8B99-FFE3E7DC9570}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\MetaHuman_5.5\Resources\Icon128.png">
-      <Filter>Plugins\Marketplace\MetaHuman_5.5\Resources</Filter>
-    </None>
-    <Filter Include="Plugins\Marketplace\VivoxVoi1599fd82f72eV1">
-      <UniqueIdentifier>{562528E5-AE44-3DBE-A445-E34B06955F28}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\VivoxCore.uplugin">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1</Filter>
-    </None>
-    <Filter Include="Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Resources">
-      <UniqueIdentifier>{D03BD872-9D7B-30AA-87CF-04C3AFCFA6B5}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Resources\Icon128.png">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Resources</Filter>
-    </None>
     <Filter Include="Plugins\Media">
       <UniqueIdentifier>{EFC0DBFF-6FDA-393C-AC79-85C04FCB8860}</UniqueIdentifier>
     </Filter>
@@ -111001,6 +110974,57 @@
     <None Include="..\..\..\..\..\..\..\UE_5.5\Engine\Source\ThirdParty\Alembic\AlembicLib.Build.cs">
       <Filter>Source\ThirdParty\Alembic</Filter>
     </None>
+    <Filter Include="Source\ThirdParty\Android">
+      <UniqueIdentifier>{B804C819-37C9-3E8D-9581-9F2CB3E02FBD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ThirdParty\Android\cxa_demangle">
+      <UniqueIdentifier>{E96D1160-A9A2-3828-B091-4BA99149848D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\UE_5.5\Engine\Source\ThirdParty\Android\cxa_demangle\AndroidOpenSourceProject.tps">
+      <Filter>Source\ThirdParty\Android\cxa_demangle</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\UE_5.5\Engine\Source\ThirdParty\Android\cxa_demangle\cxademangle.Build.cs">
+      <Filter>Source\ThirdParty\Android\cxa_demangle</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\UE_5.5\Engine\Source\ThirdParty\Android\cxa_demangle\cxademangle.tps">
+      <Filter>Source\ThirdParty\Android\cxa_demangle</Filter>
+    </None>
+    <Filter Include="Source\ThirdParty\Android\detex">
+      <UniqueIdentifier>{1F49FFD2-C7A1-3DD9-B939-89C67CE1E3FD}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Source\ThirdParty\Android\detex\AndroidETC.cpp">
+      <Filter>Source\ThirdParty\Android\detex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Source\ThirdParty\Android\detex\AndroidETC.h">
+      <Filter>Source\ThirdParty\Android\detex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Source\ThirdParty\Android\detex\AndroidETCConvert.cpp">
+      <Filter>Source\ThirdParty\Android\detex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Source\ThirdParty\Android\detex\AndroidETCHalfFloat.cpp">
+      <Filter>Source\ThirdParty\Android\detex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Source\ThirdParty\Android\detex\AndroidETCInternal.h">
+      <Filter>Source\ThirdParty\Android\detex</Filter>
+    </ClCompile>
+    <None Include="..\..\..\..\..\..\..\UE_5.5\Engine\Source\ThirdParty\Android\detex\detex.Build.cs">
+      <Filter>Source\ThirdParty\Android\detex</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\UE_5.5\Engine\Source\ThirdParty\Android\detex\detex.tps">
+      <Filter>Source\ThirdParty\Android\detex</Filter>
+    </None>
+    <Filter Include="Source\ThirdParty\Android\libunwind">
+      <UniqueIdentifier>{47419195-A588-3075-8B03-FF6F65CE9C87}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\UE_5.5\Engine\Source\ThirdParty\Android\libunwind\libunwind.Build.cs">
+      <Filter>Source\ThirdParty\Android\libunwind</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\UE_5.5\Engine\Source\ThirdParty\Android\libunwind\libunwind.tps">
+      <Filter>Source\ThirdParty\Android\libunwind</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\UE_5.5\Engine\Source\ThirdParty\Android\libunwind\ReadMe.txt">
+      <Filter>Source\ThirdParty\Android\libunwind</Filter>
+    </None>
     <Filter Include="Source\ThirdParty\Apple">
       <UniqueIdentifier>{8520B5F3-A74D-3730-BBAD-FE00BE134563}</UniqueIdentifier>
     </Filter>
@@ -187857,606 +187881,6 @@
     </Filter>
     <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\LightWeightInstancesEditor\Source\LightWeightInstancesEditor\Public\LightWeightInstancesEditor.h">
       <Filter>Plugins\LightWeightInstancesEditor\Source\LightWeightInstancesEditor\Public</Filter>
-    </ClCompile>
-    <Filter Include="Plugins\Marketplace\MetaHuman_5.5\Source">
-      <UniqueIdentifier>{965A18CD-026D-3EA7-9B00-E3A6C3A2C059}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Plugins\Marketplace\MetaHuman_5.5\Source\AutoRigService">
-      <UniqueIdentifier>{54E4ECA4-CA48-3B8E-B4B4-F8E7D99619C8}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\MetaHuman_5.5\Source\AutoRigService\AutoRigService.Build.cs">
-      <Filter>Plugins\Marketplace\MetaHuman_5.5\Source\AutoRigService</Filter>
-    </None>
-    <Filter Include="Plugins\Marketplace\MetaHuman_5.5\Source\DNAInterchange">
-      <UniqueIdentifier>{C75F7D0F-FAC2-3511-81F6-FCFC9FDA86DA}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\MetaHuman_5.5\Source\DNAInterchange\DNAInterchange.Build.cs">
-      <Filter>Plugins\Marketplace\MetaHuman_5.5\Source\DNAInterchange</Filter>
-    </None>
-    <Filter Include="Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanBatchProcessor">
-      <UniqueIdentifier>{31C5522F-653B-3CA0-AD92-679B8CD8FB7A}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanBatchProcessor\MetaHumanBatchProcessor.build.cs">
-      <Filter>Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanBatchProcessor</Filter>
-    </None>
-    <Filter Include="Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanCaptureDataEditor">
-      <UniqueIdentifier>{7FB2D7F4-7D51-3357-873C-E5E2C3E6F26F}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanCaptureDataEditor\MetaHumanCaptureDataEditor.Build.cs">
-      <Filter>Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanCaptureDataEditor</Filter>
-    </None>
-    <Filter Include="Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanCaptureData">
-      <UniqueIdentifier>{98729545-64EF-310B-B9EF-13EA565ECA5B}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanCaptureData\MetaHumanCaptureData.Build.cs">
-      <Filter>Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanCaptureData</Filter>
-    </None>
-    <Filter Include="Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanCaptureProtocolStack">
-      <UniqueIdentifier>{CBF19869-89EB-3523-8400-FE38DC7F8BA1}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanCaptureProtocolStack\MetaHumanCaptureProtocolStack.Build.cs">
-      <Filter>Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanCaptureProtocolStack</Filter>
-    </None>
-    <Filter Include="Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanCaptureSource">
-      <UniqueIdentifier>{DAAC166C-685D-3A93-B554-7D8D96447AAE}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanCaptureSource\MetaHumanCaptureSource.Build.cs">
-      <Filter>Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanCaptureSource</Filter>
-    </None>
-    <Filter Include="Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanCaptureUtils">
-      <UniqueIdentifier>{A36CBA92-96C8-3089-AA83-3939110E4369}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanCaptureUtils\MetaHumanCaptureUtils.Build.cs">
-      <Filter>Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanCaptureUtils</Filter>
-    </None>
-    <Filter Include="Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanConfigEditor">
-      <UniqueIdentifier>{E6CFE2AB-F1E0-366F-A4C9-7EED8708C982}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanConfigEditor\MetaHumanConfigEditor.Build.cs">
-      <Filter>Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanConfigEditor</Filter>
-    </None>
-    <Filter Include="Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanConfig">
-      <UniqueIdentifier>{5929D034-9E3A-3BB8-9FEB-8CDADFB8896A}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanConfig\MetaHumanConfig.Build.cs">
-      <Filter>Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanConfig</Filter>
-    </None>
-    <Filter Include="Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanControlsConversionTest">
-      <UniqueIdentifier>{4470FC4F-8247-3786-B6D6-0A3514FBA8E8}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanControlsConversionTest\MetaHumanControlsConversionTest.Build.cs">
-      <Filter>Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanControlsConversionTest</Filter>
-    </None>
-    <Filter Include="Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanCoreEditor">
-      <UniqueIdentifier>{7DAADE33-6CBC-311D-986B-996EE4700553}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanCoreEditor\MetaHumanCoreEditor.Build.cs">
-      <Filter>Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanCoreEditor</Filter>
-    </None>
-    <Filter Include="Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanCore">
-      <UniqueIdentifier>{0B00FE28-893E-3270-A4C5-4A4C773085EA}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanCore\MetaHumanCore.Build.cs">
-      <Filter>Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanCore</Filter>
-    </None>
-    <Filter Include="Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanFaceAnimationSolverEditor">
-      <UniqueIdentifier>{BB17518F-5818-3390-88FC-DEA3E6F239D8}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanFaceAnimationSolverEditor\MetaHumanFaceAnimationSolverEditor.Build.cs">
-      <Filter>Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanFaceAnimationSolverEditor</Filter>
-    </None>
-    <Filter Include="Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanFaceAnimationSolver">
-      <UniqueIdentifier>{CA7536BF-8FAB-3FB2-8F08-9438D9BA0FA9}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanFaceAnimationSolver\MetaHumanFaceAnimationSolver.Build.cs">
-      <Filter>Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanFaceAnimationSolver</Filter>
-    </None>
-    <Filter Include="Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanFaceContourTrackerEditor">
-      <UniqueIdentifier>{EEB44EB0-6116-3874-AE02-0EC86513D277}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanFaceContourTrackerEditor\MetaHumanFaceContourTrackerEditor.Build.cs">
-      <Filter>Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanFaceContourTrackerEditor</Filter>
-    </None>
-    <Filter Include="Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanFaceContourTracker">
-      <UniqueIdentifier>{A9EB41CF-B041-3392-9EF7-DCA38A450B05}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanFaceContourTracker\MetaHumanFaceContourTracker.Build.cs">
-      <Filter>Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanFaceContourTracker</Filter>
-    </None>
-    <Filter Include="Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanFaceFittingSolverEditor">
-      <UniqueIdentifier>{7DF0DF49-2E01-33B0-A916-637C862CC233}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanFaceFittingSolverEditor\MetaHumanFaceFittingSolverEditor.Build.cs">
-      <Filter>Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanFaceFittingSolverEditor</Filter>
-    </None>
-    <Filter Include="Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanFaceFittingSolver">
-      <UniqueIdentifier>{1392875E-E8A6-3F56-A76D-7933192FEE5D}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanFaceFittingSolver\MetaHumanFaceFittingSolver.Build.cs">
-      <Filter>Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanFaceFittingSolver</Filter>
-    </None>
-    <Filter Include="Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanFootageIngest">
-      <UniqueIdentifier>{50D491ED-2734-3F16-8442-81688234706B}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanFootageIngest\MetaHumanFootageIngest.Build.cs">
-      <Filter>Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanFootageIngest</Filter>
-    </None>
-    <Filter Include="Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanIdentityEditor">
-      <UniqueIdentifier>{6413B558-075A-38AA-B7E6-93685E57A51E}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanIdentityEditor\MetaHumanIdentityEditor.Build.cs">
-      <Filter>Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanIdentityEditor</Filter>
-    </None>
-    <Filter Include="Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanIdentity">
-      <UniqueIdentifier>{2A691BF1-E22A-33F0-ABD9-479EDAE84386}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanIdentity\MetaHumanIdentity.Build.cs">
-      <Filter>Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanIdentity</Filter>
-    </None>
-    <Filter Include="Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanImageViewer">
-      <UniqueIdentifier>{A817CAFA-B457-3AA6-A0BA-C3CB0D25DBDE}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanImageViewer\MetaHumanImageViewer.Build.cs">
-      <Filter>Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanImageViewer</Filter>
-    </None>
-    <Filter Include="Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanMeshTracker">
-      <UniqueIdentifier>{417A74D7-DF3C-3874-9265-BD2257B54948}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanMeshTracker\MetaHumanMeshTracker.Build.cs">
-      <Filter>Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanMeshTracker</Filter>
-    </None>
-    <Filter Include="Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanPerformance">
-      <UniqueIdentifier>{93EF1E6B-E1BD-3131-AD01-154E43823B5F}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanPerformance\MetaHumanPerformance.Build.cs">
-      <Filter>Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanPerformance</Filter>
-    </None>
-    <Filter Include="Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanPipeline">
-      <UniqueIdentifier>{8B9F2C0D-58A6-332F-939B-7B4E734B98C7}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanPipeline\MetaHumanPipeline.Build.cs">
-      <Filter>Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanPipeline</Filter>
-    </None>
-    <Filter Include="Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanPlatform">
-      <UniqueIdentifier>{41894A47-EF91-3CCB-A1CA-BCE5EE2A1166}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanPlatform\MetaHumanPlatform.Build.cs">
-      <Filter>Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanPlatform</Filter>
-    </None>
-    <Filter Include="Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanSequencer">
-      <UniqueIdentifier>{AC3CBD72-4AF2-3749-87D6-B76B1C2F9005}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanSequencer\MetaHumanSequencer.Build.cs">
-      <Filter>Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanSequencer</Filter>
-    </None>
-    <Filter Include="Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanSpeech2Face">
-      <UniqueIdentifier>{53E3BFB9-C3EF-3AC5-8D15-141006A218E4}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanSpeech2Face\MetaHumanSpeech2Face.Build.cs">
-      <Filter>Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanSpeech2Face</Filter>
-    </None>
-    <Filter Include="Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanToolkit">
-      <UniqueIdentifier>{68A724D5-8830-37DA-A2A4-674DA534F150}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanToolkit\MetaHumanToolkit.Build.cs">
-      <Filter>Plugins\Marketplace\MetaHuman_5.5\Source\MetaHumanToolkit</Filter>
-    </None>
-    <Filter Include="Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source">
-      <UniqueIdentifier>{73E9A465-4625-39FA-AC6D-6504FE89644F}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\ThirdParty">
-      <UniqueIdentifier>{FE2180D2-F391-3AC7-93CC-8B0B8E29AC9C}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\ThirdParty\VivoxCoreLibrary">
-      <UniqueIdentifier>{873E50E1-59CE-3052-9843-600D62CE4F1D}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\ThirdParty\VivoxCoreLibrary\VivoxCoreLibrary.Build.cs">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\ThirdParty\VivoxCoreLibrary</Filter>
-    </None>
-    <None Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\ThirdParty\VivoxCoreLibrary\VivoxCoreLibrary.tps">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\ThirdParty\VivoxCoreLibrary</Filter>
-    </None>
-    <None Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\ThirdParty\VivoxCoreLibrary\VivoxCoreSDK_IOS_UPL.xml">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\ThirdParty\VivoxCoreLibrary</Filter>
-    </None>
-    <None Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\ThirdParty\VivoxCoreLibrary\VivoxCoreSDK_MAC_UPL.xml">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\ThirdParty\VivoxCoreLibrary</Filter>
-    </None>
-    <None Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\ThirdParty\VivoxCoreLibrary\VivoxCoreSDK_UPL.xml">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\ThirdParty\VivoxCoreLibrary</Filter>
-    </None>
-    <Filter Include="Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore">
-      <UniqueIdentifier>{D30B3611-C81A-3E20-9177-91E850300826}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\VivoxCore.Build.cs">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore</Filter>
-    </None>
-    <Filter Include="Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private">
-      <UniqueIdentifier>{10F785F8-57D7-39CB-8852-FE1E2321B99C}</UniqueIdentifier>
-    </Filter>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\AccountId.cpp">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\AudioDeviceImpl.cpp">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\AudioDeviceImpl.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\AudioDevicesImpl.cpp">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\AudioDevicesImpl.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\Channel3DProperties.cpp">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\ChannelConnectionState.cpp">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\ChannelConnectionState.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\ChannelId.cpp">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\ChannelSession.cpp">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\ChannelSession.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\ChannelTextMessage.cpp">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\ChannelTextMessage.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\ClientImpl.cpp">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\ClientImpl.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\ConnectionState.cpp">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\DirectedTextMessage.cpp">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\DirectedTextMessage.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\IAudioDevice.cpp">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\IAudioDevices.cpp">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\IChannelConnectionState.cpp">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\IChannelSession.cpp">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\IChannelTextMessage.cpp">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\IClient.cpp">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\IDirectedTextMessage.cpp">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\ILoginSession.cpp">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\IParticipant.cpp">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\IParticipantProperties.cpp">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\IPresenceLocation.cpp">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\IPresenceSubscription.cpp">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\ITextMessage.cpp">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\ITextToSpeech.cpp">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\ITranscribedMessage.cpp">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\ITTSAudioBuffer.cpp">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\ITTSMessage.cpp">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\ITTSVoice.cpp">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\LoginSession.cpp">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\LoginSession.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\Participant.cpp">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\Participant.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\PrepareForVivox.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\Presence.cpp">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\PresenceLocation.cpp">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\PresenceLocation.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\PresenceSubscription.cpp">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\PresenceSubscription.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\TextToSpeech.cpp">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\TextToSpeech.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\TranscribedMessage.cpp">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\TranscribedMessage.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\TTSAudioBufferImpl.cpp">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\TTSAudioBufferImpl.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\TTSMessageImpl.cpp">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\TTSMessageImpl.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\TTSVoiceImpl.cpp">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\TTSVoiceImpl.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\VivoxConfig.cpp">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\VivoxCore.cpp">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\VivoxCoreCommonImpl.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\VivoxNativeSdk.cpp">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private\VivoxNativeSdk.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Private</Filter>
-    </ClCompile>
-    <Filter Include="Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Public">
-      <UniqueIdentifier>{29F8D941-3B52-32B5-8318-F1AC6613ECB0}</UniqueIdentifier>
-    </Filter>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Public\AccountId.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Public</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Public\Channel3DProperties.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Public</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Public\ChannelId.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Public</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Public\ConnectionState.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Public</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Public\IAudioDevice.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Public</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Public\IAudioDevices.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Public</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Public\IChannelConnectionState.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Public</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Public\IChannelSession.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Public</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Public\IChannelTextMessage.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Public</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Public\IClient.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Public</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Public\IDirectedTextMessage.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Public</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Public\ILoginSession.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Public</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Public\IParticipant.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Public</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Public\IParticipantProperties.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Public</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Public\IPresenceLocation.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Public</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Public\IPresenceSubscription.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Public</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Public\ITextMessage.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Public</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Public\ITextToSpeech.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Public</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Public\ITranscribedMessage.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Public</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Public\ITTSAudioBuffer.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Public</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Public\ITTSMessage.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Public</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Public\ITTSVoice.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Public</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Public\Presence.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Public</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Public\VivoxConfig.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Public</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Public\VivoxCore.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Public</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Public\VivoxCoreCommon.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxCore\Public</Filter>
-    </ClCompile>
-    <Filter Include="Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration">
-      <UniqueIdentifier>{69C0E5A8-E344-3001-B4C3-1405848C3FD7}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\.openapi-generator-ignore">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration</Filter>
-    </None>
-    <None Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\VivoxModeration.Build.cs">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration</Filter>
-    </None>
-    <Filter Include="Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\.openapi-generator">
-      <UniqueIdentifier>{8E53D0B7-5E80-36AA-92B8-52F200B16621}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\.openapi-generator\FILES">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\.openapi-generator</Filter>
-    </None>
-    <None Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\.openapi-generator\VERSION">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\.openapi-generator</Filter>
-    </None>
-    <Filter Include="Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Private">
-      <UniqueIdentifier>{82D89073-AFF7-35B3-A770-9B22A37BB874}</UniqueIdentifier>
-    </Filter>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Private\IVivoxModerationApi.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Private\OpenAPIBaseModel.cpp">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Private\OpenAPIBaseModel.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Private\OpenAPIErrorsErrorResponseBody.cpp">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Private\OpenAPIErrorsErrorResponseBody.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Private\OpenAPIHelpers.cpp">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Private\OpenAPIHelpers.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Private\OpenAPIModelPlayersRequest.cpp">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Private\OpenAPIModelPlayersRequest.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Private\OpenAPIModelPostReportRequest.cpp">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Private\OpenAPIModelPostReportRequest.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Private\OpenAPIModelVivoxChannelRequest.cpp">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Private\OpenAPIModelVivoxChannelRequest.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Private\OpenAPIReportApi.cpp">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Private\OpenAPIReportApi.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Private\OpenAPIReportApiOperations.cpp">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Private\OpenAPIReportApiOperations.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Private\VivoxModerationApi.cpp">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Private\VivoxModerationApi.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Private\VivoxModerationModule.cpp">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Private\VivoxModerationSubsystem.cpp">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Private\WrappedModerationApi.cpp">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Private\WrappedModerationApi.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Private</Filter>
-    </ClCompile>
-    <Filter Include="Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Public">
-      <UniqueIdentifier>{CC63B023-48ED-3037-A6AA-1F83CC4B74AB}</UniqueIdentifier>
-    </Filter>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Public\VivoxModerationModule.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Public</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Public\VivoxModerationReportReason.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Public</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Public\VivoxModerationSubsystem.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Public</Filter>
-    </ClCompile>
-    <Filter Include="Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Public\Models">
-      <UniqueIdentifier>{9A3B66C3-515C-3741-9764-D5B09449B962}</UniqueIdentifier>
-    </Filter>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Public\Models\VivoxModerationReport.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Public\Models</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Public\Models\VivoxModerationReportResponse.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Public\Models</Filter>
-    </ClCompile>
-    <Filter Include="Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Public\Utils">
-      <UniqueIdentifier>{4818CE78-A520-3102-8629-9E04226F8C88}</UniqueIdentifier>
-    </Filter>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Public\Utils\ModerationPimplPtr.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Public\Utils</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE_5.5\Engine\Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Public\Utils\ModerationUtils.h">
-      <Filter>Plugins\Marketplace\VivoxVoi1599fd82f72eV1\Source\VivoxModeration\Public\Utils</Filter>
     </ClCompile>
     <Filter Include="Plugins\Media\AjaMedia\Source">
       <UniqueIdentifier>{DE248E0B-1A51-351E-A15C-AD2EE157DE63}</UniqueIdentifier>
