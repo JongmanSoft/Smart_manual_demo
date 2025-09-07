@@ -24,6 +24,12 @@ ASmartPartActor::ASmartPartActor()
 void ASmartPartActor::BeginPlay()
 {
 	Super::BeginPlay();
+
+    bInitEnableMove = bEnableMove;
+    bInitEnableRotate = bEnableRotate;
+
+    InitialMeshRelLocation = MeshComp ? MeshComp->GetRelativeLocation() : FVector::ZeroVector;
+    InitialMeshRelRotation = MeshComp ? MeshComp->GetRelativeRotation() : FRotator::ZeroRotator;
 	
     CurrentLocation = StartLocation;
     SetActorLocation(CurrentLocation);
@@ -47,15 +53,23 @@ void ASmartPartActor::Tick(float DeltaTime)
     {
         Rotate(DeltaTime);
     }
+
+    if (bIsPlaying && !bEnableMove && !bEnableRotate)
+    {
+        bIsPlaying = false;
+        SetActorTickEnabled(false);
+        bReverseMode = false;
+    }
 }
 
 void ASmartPartActor::Move(float DeltaTime)
 {
-    FVector TargetLocation = FVector::ZeroVector;
-    CurrentLocation = FMath::VInterpConstantTo(CurrentLocation, TargetLocation, DeltaTime, MoveSpeed);
+    const FVector Target = bReverseMode ? StartLocation : FVector::ZeroVector;
+
+    CurrentLocation = FMath::VInterpConstantTo(CurrentLocation, Target, DeltaTime, MoveSpeed);
     SetActorLocation(CurrentLocation);
 
-    if (CurrentLocation.Equals(TargetLocation, 1.f))
+    if (CurrentLocation.Equals(Target, 1.f))
     {
         bEnableMove = false;
     }
@@ -63,40 +77,71 @@ void ASmartPartActor::Move(float DeltaTime)
 
 void ASmartPartActor::Rotate(float DeltaTime)
 {
-    if (!MeshComp || !PivotComp) return;
+    if (!MeshComp || !PivotComp) { bEnableRotate = false; return; }
 
-    float Step = RotationSpeed * DeltaTime;
-    FRotator DeltaRot = FRotator::ZeroRotator;
+    const float Step = RotationSpeed * DeltaTime;
 
-    if (bRotateX && FMath::Abs(CurrentRotationX) < FMath::Abs(TargetRotation))
-    {
-        DeltaRot.Roll = Step;
-        CurrentRotationX += Step;
-    }
-    if (bRotateY && FMath::Abs(CurrentRotationY) < FMath::Abs(TargetRotation))
-    {
-        DeltaRot.Pitch = Step;
-        CurrentRotationY += Step;
-    }
-    if (bRotateZ && FMath::Abs(CurrentRotationZ) < FMath::Abs(TargetRotation))
-    {
-        DeltaRot.Yaw = Step;
-        CurrentRotationZ += Step;
-    }
+    const float Tx = bRotateX ? (bReverseMode ? 0.f : TargetRotation) : CurrentRotationX;
+    const float Ty = bRotateY ? (bReverseMode ? 0.f : TargetRotation) : CurrentRotationY;
+    const float Tz = bRotateZ ? (bReverseMode ? 0.f : TargetRotation) : CurrentRotationZ;
 
-    FVector MeshLoc = MeshComp->GetRelativeLocation();
-    FVector PivotLoc = PivotComp->GetRelativeLocation();
+    const float Dx = FMath::Clamp(Tx - CurrentRotationX, -Step, Step);
+    const float Dy = FMath::Clamp(Ty - CurrentRotationY, -Step, Step);
+    const float Dz = FMath::Clamp(Tz - CurrentRotationZ, -Step, Step);
 
+    FRotator DeltaRot(Dy, Dz, Dx);
+
+    const FVector MeshLoc = MeshComp->GetRelativeLocation();
+    const FVector PivotLoc = PivotComp->GetRelativeLocation();
     FVector Offset = MeshLoc - PivotLoc;
     Offset = DeltaRot.RotateVector(Offset);
 
     MeshComp->SetRelativeLocation(PivotLoc + Offset);
     MeshComp->AddLocalRotation(DeltaRot);
 
-    if ((bRotateX && FMath::Abs(CurrentRotationX) >= FMath::Abs(TargetRotation)) ||
-        (bRotateY && FMath::Abs(CurrentRotationY) >= FMath::Abs(TargetRotation)) ||
-        (bRotateZ && FMath::Abs(CurrentRotationZ) >= FMath::Abs(TargetRotation)))
+    CurrentRotationX += Dx;
+    CurrentRotationY += Dy;
+    CurrentRotationZ += Dz;
+
+    const bool DoneX = !bRotateX || FMath::IsNearlyEqual(CurrentRotationX, Tx, 0.5f);
+    const bool DoneY = !bRotateY || FMath::IsNearlyEqual(CurrentRotationY, Ty, 0.5f);
+    const bool DoneZ = !bRotateZ || FMath::IsNearlyEqual(CurrentRotationZ, Tz, 0.5f);
+
+    if (DoneX && DoneY && DoneZ)
     {
         bEnableRotate = false;
     }
+}
+
+void ASmartPartActor::ResetTransforms()
+{
+    CurrentRotationX = CurrentRotationY = CurrentRotationZ = 0.f;
+
+    if (MeshComp)
+    {
+        MeshComp->SetRelativeLocation(InitialMeshRelLocation);
+        MeshComp->SetRelativeRotation(InitialMeshRelRotation);
+    }
+
+    CurrentLocation = StartLocation;
+    SetActorLocation(CurrentLocation);
+}
+
+void ASmartPartActor::StartForward()
+{
+    ResetTransforms();
+    bReverseMode = false;
+    bIsPlaying = true;
+    bEnableMove = bInitEnableMove;
+    bEnableRotate = bInitEnableRotate;
+    SetActorTickEnabled(true);
+}
+
+void ASmartPartActor::StartReverse()
+{
+    bReverseMode = true;
+    bIsPlaying = true;
+    bEnableMove = bInitEnableMove;
+    bEnableRotate = bInitEnableRotate;
+    SetActorTickEnabled(true);
 }

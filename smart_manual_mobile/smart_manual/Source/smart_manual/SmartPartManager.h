@@ -43,7 +43,7 @@ public:
     TArray<FString> get_cheak_list_desc();
 
     UFUNCTION(BlueprintCallable, Category = "desc")
-    const FString& get_current_desc_text();
+    FString get_current_desc_text() const;
 
     
 

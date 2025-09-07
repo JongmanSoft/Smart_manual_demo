@@ -22,19 +22,21 @@ void ASmartPartManager::BeginPlay()
 
 void ASmartPartManager::ActivatePart(int32 Index)
 {
-    if (!PartList.IsValidIndex(Index))
+    if (!PartList.IsValidIndex(Index) || PartList[Index] == nullptr)
     {
         UE_LOG(LogTemp, Warning, TEXT("Invalid part index: %d"), Index);
         return;
     }
 
-    if (PartList.IsValidIndex(CurrentIndex))
+    if (PartList.IsValidIndex(CurrentIndex) && PartList[CurrentIndex])
     {
         PartList[CurrentIndex]->SetActorTickEnabled(false);
+        PartList[CurrentIndex]->bIsPlaying = false;
     }
 
     CurrentIndex = Index;
-    PartList[CurrentIndex]->SetActorTickEnabled(true);
+
+    PartList[CurrentIndex]->StartForward();
 
     UE_LOG(LogTemp, Log, TEXT("Activated part index: %d"), CurrentIndex);
 }
@@ -54,15 +56,15 @@ void ASmartPartManager::NextPart()
 
 void ASmartPartManager::PrevPart()
 {
-    int32 NewIndex = CurrentIndex - 1;
-    if (PartList.IsValidIndex(NewIndex))
+    if (!PartList.IsValidIndex(CurrentIndex) || PartList[CurrentIndex] == nullptr)
     {
-        ActivatePart(NewIndex);
+        UE_LOG(LogTemp, Warning, TEXT("PrevPart: invalid CurrentIndex=%d"), CurrentIndex);
+        return;
     }
-    else
-    {
-        UE_LOG(LogTemp, Log, TEXT("Already at first part."));
-    }
+
+    PartList[CurrentIndex]->StartReverse();
+
+    CurrentIndex = FMath::Max(CurrentIndex - 1, -1);
 }
 
 void ASmartPartManager::DeactivateAll()
@@ -72,6 +74,7 @@ void ASmartPartManager::DeactivateAll()
         if (Part)
         {
             Part->SetActorTickEnabled(false);
+            Part->bIsPlaying = false;
         }
     }
     CurrentIndex = -1;
@@ -92,9 +95,12 @@ TArray<FString> ASmartPartManager::get_cheak_list_desc()
     return cheak_list_parts;
 }
 
-const FString& ASmartPartManager::get_current_desc_text()
+FString ASmartPartManager::get_current_desc_text() const
 {
-
+    if (!PartList.IsValidIndex(CurrentIndex) || PartList[CurrentIndex] == nullptr)
+    {
+        return FString();
+    }
     return PartList[CurrentIndex]->Desc_text;
 }
 
