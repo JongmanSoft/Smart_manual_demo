@@ -24,7 +24,7 @@ void ASmartPartManager::ActivatePart(int32 Index)
 {
     if (!PartList.IsValidIndex(Index) || PartList[Index] == nullptr)
     {
-        UE_LOG(LogTemp, Warning, TEXT("Invalid part index: %d"), Index);
+        // UE_LOG(LogTemp, Warning, TEXT("Invalid part index: %d"), Index);
         return;
     }
 
@@ -38,7 +38,7 @@ void ASmartPartManager::ActivatePart(int32 Index)
 
     PartList[CurrentIndex]->StartForward();
 
-    UE_LOG(LogTemp, Log, TEXT("Activated part index: %d"), CurrentIndex);
+    // UE_LOG(LogTemp, Log, TEXT("Activated part index: %d"), CurrentIndex);
 }
 
 void ASmartPartManager::NextPart()
@@ -48,17 +48,12 @@ void ASmartPartManager::NextPart()
     {
         ActivatePart(NewIndex);
     }
-    else
-    {
-        UE_LOG(LogTemp, Log, TEXT("Already at last part."));
-    }
 }
 
 void ASmartPartManager::PrevPart()
 {
     if (!PartList.IsValidIndex(CurrentIndex) || PartList[CurrentIndex] == nullptr)
     {
-        UE_LOG(LogTemp, Warning, TEXT("PrevPart: invalid CurrentIndex=%d"), CurrentIndex);
         return;
     }
 
