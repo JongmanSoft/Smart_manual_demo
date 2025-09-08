@@ -206880,3 +206880,201 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.09.08-04.51.16:499][453]LogWindows: Warning: OpenClipboard failed with error code 5
 [2025.09.08-04.51.19:647][567]LogWindows: Warning: OpenClipboard failed with error code 5
 [2025.09.08-04.51.22:946][695]LogWindows: Warning: OpenClipboard failed with error code 5
+[2025.09.08-04.52.52:018][231]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2025.09.08-04.52.52:022][231]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Map/ManualMap' took 0.034
+[2025.09.08-04.52.52:022][231]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/pawn/first_pawn] ([2] browsable assets)...
+[2025.09.08-04.52.52:023][231]OBJ SavePackage: Finished generating thumbnails for package [/Game/pawn/first_pawn]
+[2025.09.08-04.52.52:049][231]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/pawn/first_pawn_Auto1
+[2025.09.08-04.52.52:049][231]LogSavePackage: Moving '../../../../metaverse_studio/fan_demo/Smart_manual_demo/smart_manual_mobile/smart_manual/Saved/first_pawn_Auto1781CE5FE412501B797AA6699B40BCA69.tmp' to '../../../../metaverse_studio/fan_demo/Smart_manual_demo/smart_manual_mobile/smart_manual/Saved/Autosaves/Game/pawn/first_pawn_Auto1.uasset'
+[2025.09.08-04.52.52:050][231]LogFileHelpers: Auto-saving content packages took 0.028
+[2025.09.08-04.55.12:726][205]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 15896.862305
+[2025.09.08-04.55.13:000][214]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.08-04.55.13:000][214]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 15897.112305, Update Interval: 332.260498
+[2025.09.08-05.01.42:897][673]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 16286.966797
+[2025.09.08-05.01.43:180][683]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.08-05.01.43:180][683]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 16287.214844, Update Interval: 346.336243
+[2025.09.08-05.02.52:236][581]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2025.09.08-05.02.52:241][581]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Map/ManualMap' took 0.041
+[2025.09.08-05.02.52:242][581]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/pawn/first_pawn] ([2] browsable assets)...
+[2025.09.08-05.02.52:242][581]OBJ SavePackage: Finished generating thumbnails for package [/Game/pawn/first_pawn]
+[2025.09.08-05.02.52:272][581]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/pawn/first_pawn_Auto2
+[2025.09.08-05.02.52:272][581]LogSavePackage: Moving '../../../../metaverse_studio/fan_demo/Smart_manual_demo/smart_manual_mobile/smart_manual/Saved/first_pawn_Auto2AFC8307B4A88A271976C7D982894C05E.tmp' to '../../../../metaverse_studio/fan_demo/Smart_manual_demo/smart_manual_mobile/smart_manual/Saved/Autosaves/Game/pawn/first_pawn_Auto2.uasset'
+[2025.09.08-05.02.52:273][581]LogFileHelpers: Auto-saving content packages took 0.033
+[2025.09.08-05.05.27:484][164]LogWindows: Warning: OpenClipboard failed with error code 5
+[2025.09.08-05.08.28:314][549]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 16692.501953
+[2025.09.08-05.08.28:652][561]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.08-05.08.28:652][561]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 16692.814453, Update Interval: 344.122437
+[2025.09.08-05.11.25:420][727]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2025.09.08-05.12.52:463][243]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2025.09.08-05.12.52:466][243]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Map/ManualMap' took 0.033
+[2025.09.08-05.12.52:467][243]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/pawn/first_pawn] ([2] browsable assets)...
+[2025.09.08-05.12.52:467][243]OBJ SavePackage: Finished generating thumbnails for package [/Game/pawn/first_pawn]
+[2025.09.08-05.12.52:505][243]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/pawn/first_pawn_Auto3
+[2025.09.08-05.12.52:506][243]LogSavePackage: Moving '../../../../metaverse_studio/fan_demo/Smart_manual_demo/smart_manual_mobile/smart_manual/Saved/first_pawn_Auto31963A0FD4D3B373BF577109EDCCEE72E.tmp' to '../../../../metaverse_studio/fan_demo/Smart_manual_demo/smart_manual_mobile/smart_manual/Saved/Autosaves/Game/pawn/first_pawn_Auto3.uasset'
+[2025.09.08-05.12.52:507][243]LogFileHelpers: Auto-saving content packages took 0.040
+[2025.09.08-05.15.10:461][639]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 17094.779297
+[2025.09.08-05.15.10:741][651]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.08-05.15.10:742][651]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 17095.035156, Update Interval: 345.721008
+[2025.09.08-05.19.01:596][605]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2025.09.08-05.19.03:112][653]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2025.09.08-05.19.03:120][653]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.08-05.19.03:192][653]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/pawn/first_pawn] ([2] browsable assets)...
+[2025.09.08-05.19.03:192][653]OBJ SavePackage: Finished generating thumbnails for package [/Game/pawn/first_pawn]
+[2025.09.08-05.19.03:192][653]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/pawn/first_pawn" FILE="../../../../metaverse_studio/fan_demo/Smart_manual_demo/smart_manual_mobile/smart_manual/Content/pawn/first_pawn.uasset" SILENT=true
+[2025.09.08-05.19.03:226][653]LogSavePackage: Moving output files for package: /Game/pawn/first_pawn
+[2025.09.08-05.19.03:226][653]LogSavePackage: Moving '../../../../metaverse_studio/fan_demo/Smart_manual_demo/smart_manual_mobile/smart_manual/Saved/first_pawn25705508435C379A2D7577B10F0663D5.tmp' to '../../../../metaverse_studio/fan_demo/Smart_manual_demo/smart_manual_mobile/smart_manual/Content/pawn/first_pawn.uasset'
+[2025.09.08-05.19.03:239][653]LogFileHelpers: InternalPromptForCheckoutAndSave took 119.083 ms (total: 1.51 sec)
+[2025.09.08-05.19.03:321][653]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.08-05.19.03:321][653]LogContentValidation: Enabled validators:
+[2025.09.08-05.19.03:321][653]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.08-05.19.03:321][653]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.08-05.19.03:321][653]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.08-05.19.03:321][653]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.08-05.19.03:321][653]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.08-05.19.03:321][653]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.08-05.19.03:321][653]AssetCheck: /Game/pawn/first_pawn Validating asset
+[2025.09.08-05.19.24:576][459]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.09.08-05.19.25:277][459]LogSlate: Window 'Save Content' being destroyed
+[2025.09.08-05.19.25:290][459]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.08-05.19.25:364][459]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/pawn/first_pawn] ([2] browsable assets)...
+[2025.09.08-05.19.25:364][459]OBJ SavePackage: Finished generating thumbnails for package [/Game/pawn/first_pawn]
+[2025.09.08-05.19.25:364][459]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/pawn/first_pawn" FILE="../../../../metaverse_studio/fan_demo/Smart_manual_demo/smart_manual_mobile/smart_manual/Content/pawn/first_pawn.uasset" SILENT=true
+[2025.09.08-05.19.25:396][459]LogSavePackage: Moving output files for package: /Game/pawn/first_pawn
+[2025.09.08-05.19.25:398][459]LogSavePackage: Moving '../../../../metaverse_studio/fan_demo/Smart_manual_demo/smart_manual_mobile/smart_manual/Saved/first_pawn3F265BEE4DC8B32BD0045F89634AC006.tmp' to '../../../../metaverse_studio/fan_demo/Smart_manual_demo/smart_manual_mobile/smart_manual/Content/pawn/first_pawn.uasset'
+[2025.09.08-05.19.25:416][459]LogFileHelpers: InternalPromptForCheckoutAndSave took 127.060 ms (total: 1.63 sec)
+[2025.09.08-05.19.25:513][459]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.08-05.19.25:513][459]LogContentValidation: Enabled validators:
+[2025.09.08-05.19.25:513][459]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.08-05.19.25:513][459]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.08-05.19.25:513][459]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.08-05.19.25:513][459]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.08-05.19.25:513][459]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.08-05.19.25:513][459]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.08-05.19.25:513][459]AssetCheck: /Game/pawn/first_pawn Validating asset
+[2025.09.08-05.19.28:043][549]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2025.09.08-05.19.51:853][353]LogDebuggerCommands: Repeating last play command: Standalone Game Mobile
+[2025.09.08-05.19.51:893][353]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2025.09.08-05.21.24:749][642]LogSlate: Window 'Message Log' being destroyed
+[2025.09.08-05.21.24:773][642]LogSlate: Window 'Message Log' being destroyed
+[2025.09.08-05.21.27:029][759]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.09.08-05.21.38:202][405]LogLiveCoding: Display:    P:\metaverse_studio\fan_demo\Smart_manual_demo\smart_manual_mobile\smart_manual\Binaries\Win64\UnrealEditor-smart_manual.patch_2.lib 라이브러리 및 P:\metaverse_studio\fan_demo\Smart_manual_demo\smart_manual_mobile\smart_manual\Binaries\Win64\UnrealEditor-smart_manual.patch_2.exp 개체를 생성하고 있습니다.
+[2025.09.08-05.21.38:618][407]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2025.09.08-05.21.39:270][408]Display: Reload/Re-instancing Complete: 1 package changed, 2 classes unchanged, 11 functions remapped
+[2025.09.08-05.21.39:270][408]LogLiveCoding: Display: Live coding succeeded
+[2025.09.08-05.21.54:030][276]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 17498.148438
+[2025.09.08-05.21.54:311][293]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.08-05.21.54:311][293]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 17498.416016, Update Interval: 327.100433
+[2025.09.08-05.22.16:000][592]LogDebuggerCommands: Repeating last play command: Standalone Game Mobile
+[2025.09.08-05.22.16:184][592]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2025.09.08-05.28.14:614][  2]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 17878.578125
+[2025.09.08-05.28.14:884][ 18]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.08-05.28.14:884][ 18]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 17878.830078, Update Interval: 342.666718
+[2025.09.08-05.32.24:137][929]LogDerivedDataCache: C:/Users/이종만/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.09.08-05.34.50:924][700]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 18274.875000
+[2025.09.08-05.34.51:182][715]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.08-05.34.51:182][715]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 18275.113281, Update Interval: 333.192535
+[2025.09.08-05.37.03:921][572]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.08-05.37.03:922][572]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_ManualMap
+[2025.09.08-05.37.03:928][572]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005588s)
+[2025.09.08-05.37.03:928][572]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/ManualMap.ManualMap to /Game/Map/UEDPIE_0_ManualMap.ManualMap (0.005903s)
+[2025.09.08-05.37.04:041][572]LogUObjectHash: Compacting FUObjectHashTables data took   3.64ms
+[2025.09.08-05.37.04:053][572]LogChaosDD: Creating Chaos Debug Draw Scene for world ManualMap
+[2025.09.08-05.37.04:055][572]LogPlayLevel: PIE: World Init took: (0.003127s)
+[2025.09.08-05.37.04:059][572]LogAudio: Display: Creating Audio Device:                 Id: 63, Scope: Unique, Realtime: True
+[2025.09.08-05.37.04:059][572]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.08-05.37.04:059][572]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.08-05.37.04:059][572]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.08-05.37.04:059][572]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.08-05.37.04:059][572]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.08-05.37.04:059][572]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.08-05.37.04:059][572]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.08-05.37.04:059][572]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.08-05.37.04:060][572]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.08-05.37.04:060][572]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.08-05.37.04:060][572]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.08-05.37.04:065][572]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.08-05.37.05:770][572]LogAudioMixer: Display: Using Audio Hardware Device 스피커(Realtek(R) Audio)
+[2025.09.08-05.37.05:770][572]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.08-05.37.05:770][572]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.08-05.37.05:770][572]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.08-05.37.05:771][572]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=63
+[2025.09.08-05.37.05:771][572]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=63
+[2025.09.08-05.37.05:775][572]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=63
+[2025.09.08-05.37.05:777][572]LogInit: FAudioDevice initialized with ID 63.
+[2025.09.08-05.37.05:777][572]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=63
+[2025.09.08-05.37.05:777][572]LogAudio: Display: Audio Device (ID: 63) registered with world 'ManualMap'.
+[2025.09.08-05.37.05:777][572]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 63
+[2025.09.08-05.37.05:777][572]LogEnhancedInput: Enhanced Input local player subsystem has initalized the user settings!
+[2025.09.08-05.37.05:840][572]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.08-05.37.05:841][572]LogLoad: Game class is 'first_camera_mode_C'
+[2025.09.08-05.37.05:843][572]LogWorld: Bringing World /Game/Map/UEDPIE_0_ManualMap.ManualMap up for play (max tick rate 60) at 2025.09.08-14.37.05
+[2025.09.08-05.37.05:844][572]LogWorld: Bringing up level for play took: 0.001801
+[2025.09.08-05.37.05:848][572]LogOnline: OSS: Created online subsystem instance for: :Context_75
+[2025.09.08-05.37.05:849][572]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2025.09.08-05.37.05:849][572]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2025.09.08-05.37.05:849][572]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2025.09.08-05.37.05:849][572]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2025.09.08-05.37.05:853][572]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.09.08-05.37.05:853][572]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.09.08-05.37.05:853][572]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2025.09.08-05.37.05:872][572]PIE: Server logged in
+[2025.09.08-05.37.05:880][572]PIE: Play in editor total start time 1.961 seconds.
+[2025.09.08-05.37.20:227][204]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.08-05.37.20:227][204]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_ManualMap
+[2025.09.08-05.37.20:229][204]LogSlate: Window 'smart_manual Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.09.08-05.37.20:239][204]LogWorld: UWorld::CleanupWorld for ManualMap, bSessionEnded=true, bCleanupResources=true
+[2025.09.08-05.37.20:240][204]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.08-05.37.20:247][204]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.08-05.37.20:259][204]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.08-05.37.20:292][204]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.09.08-05.37.20:292][204]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 63
+[2025.09.08-05.37.20:293][204]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=63
+[2025.09.08-05.37.20:297][204]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=63
+[2025.09.08-05.37.20:316][204]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2025.09.08-05.37.20:444][205]LogPlayLevel: Display: Destroying online subsystem :Context_75
+[2025.09.08-05.38.12:824][504]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2025.09.08-05.38.12:830][504]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Map/ManualMap' took 0.033
+[2025.09.08-05.38.12:831][504]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/pawn/first_pawn] ([2] browsable assets)...
+[2025.09.08-05.38.12:831][504]OBJ SavePackage: Finished generating thumbnails for package [/Game/pawn/first_pawn]
+[2025.09.08-05.38.12:869][504]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/pawn/first_pawn_Auto4
+[2025.09.08-05.38.12:870][504]LogSavePackage: Moving '../../../../metaverse_studio/fan_demo/Smart_manual_demo/smart_manual_mobile/smart_manual/Saved/first_pawn_Auto41DE9B54B49D8173790B1988AA45B6125.tmp' to '../../../../metaverse_studio/fan_demo/Smart_manual_demo/smart_manual_mobile/smart_manual/Saved/Autosaves/Game/pawn/first_pawn_Auto4.uasset'
+[2025.09.08-05.38.12:871][504]LogFileHelpers: Auto-saving content packages took 0.040
+[2025.09.08-05.41.14:412][948]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 18658.328125
+[2025.09.08-05.41.14:665][960]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.08-05.41.14:666][960]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 18658.560547, Update Interval: 346.892914
+[2025.09.08-05.42.22:200][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2025.09.08-05.42.23:734][125]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2025.09.08-05.42.23:744][125]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.08-05.42.23:832][125]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/pawn/first_pawn] ([2] browsable assets)...
+[2025.09.08-05.42.23:832][125]OBJ SavePackage: Finished generating thumbnails for package [/Game/pawn/first_pawn]
+[2025.09.08-05.42.23:832][125]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/pawn/first_pawn" FILE="../../../../metaverse_studio/fan_demo/Smart_manual_demo/smart_manual_mobile/smart_manual/Content/pawn/first_pawn.uasset" SILENT=true
+[2025.09.08-05.42.23:876][125]LogSavePackage: Moving output files for package: /Game/pawn/first_pawn
+[2025.09.08-05.42.23:877][125]LogSavePackage: Moving '../../../../metaverse_studio/fan_demo/Smart_manual_demo/smart_manual_mobile/smart_manual/Saved/first_pawn316B4B494EF211B9EF9A78BB38582BB3.tmp' to '../../../../metaverse_studio/fan_demo/Smart_manual_demo/smart_manual_mobile/smart_manual/Content/pawn/first_pawn.uasset'
+[2025.09.08-05.42.23:890][125]LogFileHelpers: InternalPromptForCheckoutAndSave took 145.658 ms (total: 1.78 sec)
+[2025.09.08-05.42.23:984][125]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.08-05.42.23:984][125]LogContentValidation: Enabled validators:
+[2025.09.08-05.42.23:984][125]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.08-05.42.23:984][125]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.08-05.42.23:984][125]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.08-05.42.23:984][125]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.08-05.42.23:984][125]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.08-05.42.23:984][125]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.08-05.42.23:984][125]AssetCheck: /Game/pawn/first_pawn Validating asset
+[2025.09.08-05.43.03:742][676]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2025.09.08-05.43.11:817][  1]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2025.09.08-05.43.11:828][  1]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.08-05.43.11:922][  1]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/pawn/first_pawn] ([2] browsable assets)...
+[2025.09.08-05.43.11:922][  1]OBJ SavePackage: Finished generating thumbnails for package [/Game/pawn/first_pawn]
+[2025.09.08-05.43.11:922][  1]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/pawn/first_pawn" FILE="../../../../metaverse_studio/fan_demo/Smart_manual_demo/smart_manual_mobile/smart_manual/Content/pawn/first_pawn.uasset" SILENT=true
+[2025.09.08-05.43.11:963][  1]LogSavePackage: Moving output files for package: /Game/pawn/first_pawn
+[2025.09.08-05.43.11:964][  1]LogSavePackage: Moving '../../../../metaverse_studio/fan_demo/Smart_manual_demo/smart_manual_mobile/smart_manual/Saved/first_pawn352A2FF04D8C2429D4341E8905C56B83.tmp' to '../../../../metaverse_studio/fan_demo/Smart_manual_demo/smart_manual_mobile/smart_manual/Content/pawn/first_pawn.uasset'
+[2025.09.08-05.43.11:979][  1]LogFileHelpers: InternalPromptForCheckoutAndSave took 150.017 ms (total: 1.93 sec)
+[2025.09.08-05.43.12:076][  1]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.08-05.43.12:076][  1]LogContentValidation: Enabled validators:
+[2025.09.08-05.43.12:076][  1]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.08-05.43.12:076][  1]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.08-05.43.12:076][  1]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.08-05.43.12:076][  1]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.08-05.43.12:076][  1]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.08-05.43.12:076][  1]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.08-05.43.12:076][  1]AssetCheck: /Game/pawn/first_pawn Validating asset
