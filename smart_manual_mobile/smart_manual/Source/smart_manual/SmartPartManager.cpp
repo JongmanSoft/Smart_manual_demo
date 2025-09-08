@@ -43,6 +43,10 @@ void ASmartPartManager::ActivatePart(int32 Index)
 
 void ASmartPartManager::NextPart()
 {
+    if (PartList.IsValidIndex(CurrentIndex))
+    {
+        PartList[CurrentIndex]->SetTargetTransforms();
+    }
     int32 NewIndex = CurrentIndex + 1;
     if (PartList.IsValidIndex(NewIndex))
     {

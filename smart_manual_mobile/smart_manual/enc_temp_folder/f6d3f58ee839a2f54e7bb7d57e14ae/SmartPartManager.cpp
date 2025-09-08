@@ -22,21 +22,23 @@ void ASmartPartManager::BeginPlay()
 
 void ASmartPartManager::ActivatePart(int32 Index)
 {
-    if (!PartList.IsValidIndex(Index))
+    if (!PartList.IsValidIndex(Index) || PartList[Index] == nullptr)
     {
-        UE_LOG(LogTemp, Warning, TEXT("Invalid part index: %d"), Index);
+        // UE_LOG(LogTemp, Warning, TEXT("Invalid part index: %d"), Index);
         return;
     }
 
-    if (PartList.IsValidIndex(CurrentIndex))
+    if (PartList.IsValidIndex(CurrentIndex) && PartList[CurrentIndex])
     {
         PartList[CurrentIndex]->SetActorTickEnabled(false);
+        PartList[CurrentIndex]->bIsPlaying = false;
     }
 
     CurrentIndex = Index;
-    PartList[CurrentIndex]->SetActorTickEnabled(true);
 
-    UE_LOG(LogTemp, Log, TEXT("Activated part index: %d"), CurrentIndex);
+    PartList[CurrentIndex]->StartForward();
+
+    // UE_LOG(LogTemp, Log, TEXT("Activated part index: %d"), CurrentIndex);
 }
 
 void ASmartPartManager::NextPart()
@@ -46,23 +48,18 @@ void ASmartPartManager::NextPart()
     {
         ActivatePart(NewIndex);
     }
-    else
-    {
-        UE_LOG(LogTemp, Log, TEXT("Already at last part."));
-    }
 }
 
 void ASmartPartManager::PrevPart()
 {
-    int32 NewIndex = CurrentIndex - 1;
-    if (PartList.IsValidIndex(NewIndex))
+    if (!PartList.IsValidIndex(CurrentIndex) || PartList[CurrentIndex] == nullptr)
     {
-        ActivatePart(NewIndex);
+        return;
     }
-    else
-    {
-        UE_LOG(LogTemp, Log, TEXT("Already at first part."));
-    }
+
+    PartList[CurrentIndex]->StartReverse();
+
+    CurrentIndex = FMath::Max(CurrentIndex - 1, -1);
 }
 
 void ASmartPartManager::DeactivateAll()
@@ -72,14 +69,15 @@ void ASmartPartManager::DeactivateAll()
         if (Part)
         {
             Part->SetActorTickEnabled(false);
+            Part->bIsPlaying = false;
         }
     }
     CurrentIndex = -1;
 }
 
-TArray<FText> ASmartPartManager::get_cheak_list_desc()
+TArray<FString> ASmartPartManager::get_cheak_list_desc()
 {
-    TArray<FText> cheak_list_parts;
+    TArray<FString> cheak_list_parts;
     cheak_list_parts.Reset();
     for (ASmartPartActor* Part : PartList)
     {
@@ -92,10 +90,12 @@ TArray<FText> ASmartPartManager::get_cheak_list_desc()
     return cheak_list_parts;
 }
 
-const FText& ASmartPartManager::get_current_desc_text()
+FString ASmartPartManager::get_current_desc_text() const
 {
-
-    UE_LOG(LogTemp, Log, TEXT("%s"), *PartList[CurrentIndex]->Desc_text.ToString());
+    if (!PartList.IsValidIndex(CurrentIndex) || PartList[CurrentIndex] == nullptr)
+    {
+        return FString();
+    }
     return PartList[CurrentIndex]->Desc_text;
 }
 

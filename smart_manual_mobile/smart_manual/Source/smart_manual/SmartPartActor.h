@@ -74,6 +74,9 @@ public:
     UFUNCTION(BlueprintCallable, Category = "Play")
     void ResetTransforms();
 
+    UFUNCTION(BlueprintCallable, Category = "Play")
+    void SetTargetTransforms();
+
 private:
     FVector CurrentLocation;
     float CurrentRotationX;

@@ -30,10 +30,13 @@ public:
     UStaticMeshComponent* MeshComp;
 
     UPROPERTY(EditAnywhere, Category = "Desc")
-    FText Desc_text;
+    FString Desc_text;
 
     UPROPERTY(EditAnywhere, Category = "Desc")
-    FText cheak_list_text;
+    FString cheak_list_text;
+
+    bool bReverseMode = false;
+    bool bIsPlaying = false;
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Move")
     bool bEnableMove = false;
@@ -62,15 +65,26 @@ public:
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Rotate")
     float TargetRotation = 90.f;
 
+    UFUNCTION(BlueprintCallable, Category = "Play")
+    void StartForward();
+
+    UFUNCTION(BlueprintCallable, Category = "Play")
+    void StartReverse();
+
+    UFUNCTION(BlueprintCallable, Category = "Play")
+    void ResetTransforms();
+
 private:
     FVector CurrentLocation;
     float CurrentRotationX;
     float CurrentRotationY;
     float CurrentRotationZ;
 
+    FVector InitialMeshRelLocation;
+    FRotator InitialMeshRelRotation;
+    bool bInitEnableMove = false;
+    bool bInitEnableRotate = false;
+
     void Move(float DeltaTime);
     void Rotate(float DeltaTime);
-
-  
-
 };

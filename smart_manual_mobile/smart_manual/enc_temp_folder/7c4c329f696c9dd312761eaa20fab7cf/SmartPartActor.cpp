@@ -127,55 +127,6 @@ void ASmartPartActor::ResetTransforms()
     SetActorLocation(CurrentLocation);
 }
 
-void ASmartPartActor::SetTargetTransforms()
-{
-    // Set location immediately
-    if (bEnableMove)
-    {
-        const FVector Target = bReverseMode ? StartLocation : FVector::ZeroVector;
-        CurrentLocation = Target;
-        SetActorLocation(CurrentLocation);
-        bEnableMove = false;
-    }
-
-    // Set rotation immediately
-    if (bEnableRotate && MeshComp && PivotComp)
-    {
-        const float Tx = bRotateX ? (bReverseMode ? 0.f : TargetRotation) : CurrentRotationX;
-        const float Ty = bRotateY ? (bReverseMode ? 0.f : TargetRotation) : CurrentRotationY;
-        const float Tz = bRotateZ ? (bReverseMode ? 0.f : TargetRotation) : CurrentRotationZ;
-
-        const float Dx = Tx - CurrentRotationX;
-        const float Dy = Ty - CurrentRotationY;
-        const float Dz = Tz - CurrentRotationZ;
-
-        FRotator DeltaRot(Dy, Dz, Dx);
-
-        const FVector MeshLoc = MeshComp->GetRelativeLocation();
-        const FVector PivotLoc = PivotComp->GetRelativeLocation();
-        FVector Offset = MeshLoc - PivotLoc;
-        Offset = DeltaRot.RotateVector(Offset);
-
-        MeshComp->SetRelativeLocation(PivotLoc + Offset);
-        MeshComp->AddLocalRotation(DeltaRot);
-
-        CurrentRotationX = Tx;
-        CurrentRotationY = Ty;
-        CurrentRotationZ = Tz;
-
-        bEnableRotate = false;
-    }
-
-    // Update playing state
-    if (bIsPlaying && !bEnableMove && !bEnableRotate)
-    {
-        bIsPlaying = false;
-        SetActorTickEnabled(false);
-        bReverseMode = false;
-    }
-    
-}
-
 void ASmartPartActor::StartForward()
 {
     ResetTransforms();
