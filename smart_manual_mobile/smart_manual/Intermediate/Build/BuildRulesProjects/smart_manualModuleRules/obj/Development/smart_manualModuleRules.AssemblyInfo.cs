@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("smart_manualModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0fb98cdfe65fe56684ee0e67b4a7e023a9fecea0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+05700bff519a19a32114a6048ad3d5e5db88cd8d")]
 [assembly: System.Reflection.AssemblyProductAttribute("smart_manualModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("smart_manualModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
