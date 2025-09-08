@@ -79,6 +79,50 @@ void ASmartPartManager::DeactivateAll()
     CurrentIndex = -1;
 }
 
+void ASmartPartManager::SetPartStateByIndex(int32 TargetIndex)
+{
+    if (!PartList.IsValidIndex(TargetIndex) || PartList[TargetIndex] == nullptr)
+    {
+        // UE_LOG(LogTemp, Warning, TEXT("Invalid target index: %d"), TargetIndex);
+        return;
+    }
+
+    // Process all parts
+    for (int32 i = 0; i < PartList.Num(); i++)
+    {
+        if (!PartList[i])
+        {
+            continue;
+        }
+
+        if (i < TargetIndex)
+        {
+            // Parts before TargetIndex: Set to completed state
+            PartList[i]->bReverseMode = false;
+            PartList[i]->SetTargetTransforms();
+            PartList[i]->SetActorTickEnabled(false);
+            PartList[i]->bIsPlaying = false;
+        }
+        else if (i == TargetIndex)
+        {
+            // Part at TargetIndex: Start playing forward
+            PartList[i]->SetActorTickEnabled(false);
+            PartList[i]->bIsPlaying = false;
+            PartList[i]->StartForward();
+        }
+        else
+        {
+            // Parts after TargetIndex: Reset to initial state
+            PartList[i]->bReverseMode = true;
+            PartList[i]->ResetTransforms();
+            PartList[i]->SetActorTickEnabled(false);
+            PartList[i]->bIsPlaying = false;
+        }
+    }
+
+    CurrentIndex = TargetIndex;
+}
+
 TArray<FString> ASmartPartManager::get_cheak_list_desc()
 {
     TArray<FString> cheak_list_parts;

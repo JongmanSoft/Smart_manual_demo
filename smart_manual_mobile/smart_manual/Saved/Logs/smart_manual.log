@@ -1828,3 +1828,314 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.09.08-00.59.34:594][708]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
 [2025.09.08-00.59.34:620][709]LogPlayLevel: Display: Destroying online subsystem :Context_3
 [2025.09.08-00.59.36:287][803]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2025.09.08-01.04.24:901][110]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2048.849121
+[2025.09.08-01.04.25:167][126]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.08-01.04.25:167][126]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2049.100586, Update Interval: 307.152313
+[2025.09.08-01.05.58:241][677]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/ui/check_unit.check_unit
+[2025.09.08-01.05.58:242][677]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_0
+[2025.09.08-01.05.58:251][677]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_1
+[2025.09.08-01.05.58:259][677]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2025.09.08-01.05.58:465][677]LogStreaming: Display: FlushAsyncLoading(414): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.08-01.05.59:632][677]LogSlate: Took 0.000656 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.09.08-01.05.59:641][677]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find SlateColor 'Foreground'.'
+[2025.09.08-01.05.59:642][677]LogSlate: Took 0.000479 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2025.09.08-01.06.03:800][916]LogSlate: Took 0.001354 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2025.09.08-01.10.17:798][990]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2401.739990
+[2025.09.08-01.10.18:067][  5]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.08-01.10.18:067][  5]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2401.988037, Update Interval: 352.270874
+[2025.09.08-01.10.42:780][454]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2025.09.08-01.10.42:782][454]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Map/ManualMap' took 0.050
+[2025.09.08-01.10.42:784][454]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/ui/check_unit] ([2] browsable assets)...
+[2025.09.08-01.10.42:792][454]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/ui/check_unit.check_unit]
+[2025.09.08-01.10.42:792][454]OBJ SavePackage: Finished generating thumbnails for package [/Game/ui/check_unit]
+[2025.09.08-01.10.42:811][454]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ui/check_unit_Auto1
+[2025.09.08-01.10.42:811][454]LogSavePackage: Moving '../../../../metaverse_studio/fan_demo/Smart_manual_demo/smart_manual_mobile/smart_manual/Saved/check_unit_Auto1ABDE2F254E1820877D9B7BB46FA9313D.tmp' to '../../../../metaverse_studio/fan_demo/Smart_manual_demo/smart_manual_mobile/smart_manual/Saved/Autosaves/Game/ui/check_unit_Auto1.uasset'
+[2025.09.08-01.10.42:815][454]LogFileHelpers: Auto-saving content packages took 0.032
+[2025.09.08-01.10.54:932][151]LogSlate: Window 'Color Picker' being destroyed
+[2025.09.08-01.11.08:572][925]LogSlate: Took 0.000198 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.09.08-01.11.08:631][928]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_2
+[2025.09.08-01.12.26:210][403]LogShaderCompilers: Display: ================================================
+[2025.09.08-01.12.26:210][403]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.09.08-01.12.26:210][403]LogShaderCompilers: Display: Total job queries 278, among them cache hits 31 (11.15%), DDC hits 220 (79.14%), Duplicates 4 (1.44%)
+[2025.09.08-01.12.26:210][403]LogShaderCompilers: Display: Tracking 243 distinct input hashes that result in 204 distinct outputs (83.95%)
+[2025.09.08-01.12.26:211][403]LogShaderCompilers: Display: RAM used: 137.70 KiB of 1.60 GiB budget. Usage: 0.01%
+[2025.09.08-01.12.26:211][403]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.09.08-01.12.26:211][403]LogShaderCompilers: Display: Shaders Compiled: 23
+[2025.09.08-01.12.26:211][403]LogShaderCompilers: Display: Jobs assigned 23, completed 23 (100%)
+[2025.09.08-01.12.26:211][403]LogShaderCompilers: Display: Average time worker was idle: 1.53 s
+[2025.09.08-01.12.26:211][403]LogShaderCompilers: Display: Time job spent in pending queue: average 0.08 s, longest 0.55 s
+[2025.09.08-01.12.26:211][403]LogShaderCompilers: Display: Job execution time: average 0.99 s, max 2.47 s
+[2025.09.08-01.12.26:211][403]LogShaderCompilers: Display: Job life time (pending + execution): average 1.06 s, max 2.56
+[2025.09.08-01.12.26:211][403]LogShaderCompilers: Display: Shader code size: average 7.569 KiB, min 4.199 KiB, max 11.586 KiB
+[2025.09.08-01.12.26:212][403]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 6.92 s
+[2025.09.08-01.12.26:212][403]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2025.09.08-01.12.26:212][403]LogShaderCompilers: Display: Jobs were issued in 23 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.09.08-01.12.26:212][403]LogShaderCompilers: Display: Average processing rate: 3.33 jobs/sec
+[2025.09.08-01.12.26:212][403]LogShaderCompilers: Display: Total thread time: 13.191 s
+[2025.09.08-01.12.26:212][403]LogShaderCompilers: Display: Total thread preprocess time: 5.444 s
+[2025.09.08-01.12.26:212][403]LogShaderCompilers: Display: Percentage time preprocessing: 41.27%
+[2025.09.08-01.12.26:212][403]LogShaderCompilers: Display: Effective parallelization: 1.91 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.09.08-01.12.26:212][403]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.09.08-01.12.26:212][403]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    4 times, average 1.07 sec, max 1.23 sec, min 0.94 sec)
+[2025.09.08-01.12.26:212][403]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled    1 times, average 0.96 sec, max 0.96 sec, min 0.96 sec)
+[2025.09.08-01.12.26:212][403]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    5 times, average 0.56 sec, max 0.65 sec, min 0.49 sec)
+[2025.09.08-01.12.26:212][403]LogShaderCompilers: Display:                                                 FLumenCardPS (compiled    4 times, average 0.43 sec, max 0.48 sec, min 0.38 sec)
+[2025.09.08-01.12.26:212][403]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    5 times, average 0.39 sec, max 0.44 sec, min 0.35 sec)
+[2025.09.08-01.12.26:212][403]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.09.08-01.12.26:212][403]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 32.44% of total time (compiled    4 times, average 1.07 sec, max 1.23 sec, min 0.94 sec)
+[2025.09.08-01.12.26:213][403]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 21.37% of total time (compiled    5 times, average 0.56 sec, max 0.65 sec, min 0.49 sec)
+[2025.09.08-01.12.26:213][403]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 14.66% of total time (compiled    5 times, average 0.39 sec, max 0.44 sec, min 0.35 sec)
+[2025.09.08-01.12.26:213][403]LogShaderCompilers: Display:                                                 FLumenCardPS - 13.06% of total time (compiled    4 times, average 0.43 sec, max 0.48 sec, min 0.38 sec)
+[2025.09.08-01.12.26:213][403]LogShaderCompilers: Display:                                                 FLumenCardVS - 11.17% of total time (compiled    4 times, average 0.37 sec, max 0.40 sec, min 0.34 sec)
+[2025.09.08-01.12.26:213][403]LogShaderCompilers: Display: === Material stats ===
+[2025.09.08-01.12.26:213][403]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.09.08-01.12.26:213][403]LogShaderCompilers: Display: Materials Translated:    134
+[2025.09.08-01.12.26:213][403]LogShaderCompilers: Display: Material Total Translate Time: 0.11 s
+[2025.09.08-01.12.26:213][403]LogShaderCompilers: Display: Material Translation Only: 0.05 s (43%)
+[2025.09.08-01.12.26:213][403]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2025.09.08-01.12.26:213][403]LogShaderCompilers: Display: Material Cache Hits: 27 (20%)
+[2025.09.08-01.12.26:213][403]LogShaderCompilers: Display: ================================================
+[2025.09.08-01.13.26:656][ 24]LogStreaming: Display: FlushAsyncLoading(604): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.08-01.13.26:705][ 24]LogInterchangeEngine: [Pending] Importing
+[2025.09.08-01.13.26:705][ 24]LogInterchangeEngine: Display: Interchange start importing source [P:/metaverse_studio/resource/next_icon.png]
+[2025.09.08-01.13.26:771][ 26]LogStreaming: Display: FlushAsyncLoading(613): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.08-01.13.26:776][ 27]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.09.08-01.13.26:804][ 28]LogTexture: Display: Building textures: /Game/ui/next_icon.next_icon (BGRA8, 277x352 x1x1x1) (Required Memory Estimate: 4.347527 MB), EncodeSpeed: Fast
+[2025.09.08-01.13.26:828][ 28]LogInterchangeEngine: Display: Interchange import completed [P:/metaverse_studio/resource/next_icon.png]
+[2025.09.08-01.13.26:840][ 28]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.09.08-01.13.26:840][ 28]LogInterchangeEngine: [Success] Import Done
+[2025.09.08-01.13.59:402][819]LogSlate: Window 'Color Picker' being destroyed
+[2025.09.08-01.14.18:396][941]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2025.09.08-01.14.45:593][512]LogSlate: Took 0.000741 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2025.09.08-01.14.51:440][845]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2025.09.08-01.15.09:891][918]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2025.09.08-01.15.26:213][875]LogShaderCompilers: Display: ================================================
+[2025.09.08-01.15.26:213][875]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.09.08-01.15.26:213][875]LogShaderCompilers: Display: Total job queries 281, among them cache hits 31 (11.03%), DDC hits 220 (78.29%), Duplicates 4 (1.42%)
+[2025.09.08-01.15.26:213][875]LogShaderCompilers: Display: Tracking 246 distinct input hashes that result in 204 distinct outputs (82.93%)
+[2025.09.08-01.15.26:213][875]LogShaderCompilers: Display: RAM used: 137.70 KiB of 1.60 GiB budget. Usage: 0.01%
+[2025.09.08-01.15.26:214][875]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.09.08-01.15.26:214][875]LogShaderCompilers: Display: Shaders Compiled: 26
+[2025.09.08-01.15.26:214][875]LogShaderCompilers: Display: Jobs assigned 26, completed 26 (100%)
+[2025.09.08-01.15.26:214][875]LogShaderCompilers: Display: Average time worker was idle: 23.87 s
+[2025.09.08-01.15.26:214][875]LogShaderCompilers: Display: Time job spent in pending queue: average 0.08 s, longest 0.55 s
+[2025.09.08-01.15.26:214][875]LogShaderCompilers: Display: Job execution time: average 1.03 s, max 2.47 s
+[2025.09.08-01.15.26:214][875]LogShaderCompilers: Display: Job life time (pending + execution): average 1.11 s, max 2.56
+[2025.09.08-01.15.26:214][875]LogShaderCompilers: Display: Shader code size: average 7.582 KiB, min 4.199 KiB, max 11.586 KiB
+[2025.09.08-01.15.26:214][875]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 8.71 s
+[2025.09.08-01.15.26:214][875]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2025.09.08-01.15.26:214][875]LogShaderCompilers: Display: Jobs were issued in 26 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.09.08-01.15.26:214][875]LogShaderCompilers: Display: Average processing rate: 2.99 jobs/sec
+[2025.09.08-01.15.26:214][875]LogShaderCompilers: Display: Total thread time: 15.041 s
+[2025.09.08-01.15.26:214][875]LogShaderCompilers: Display: Total thread preprocess time: 5.483 s
+[2025.09.08-01.15.26:214][875]LogShaderCompilers: Display: Percentage time preprocessing: 36.46%
+[2025.09.08-01.15.26:215][875]LogShaderCompilers: Display: Effective parallelization: 1.73 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.09.08-01.15.26:215][875]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.09.08-01.15.26:215][875]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    5 times, average 1.05 sec, max 1.23 sec, min 0.94 sec)
+[2025.09.08-01.15.26:215][875]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled    1 times, average 0.96 sec, max 0.96 sec, min 0.96 sec)
+[2025.09.08-01.15.26:215][875]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    6 times, average 0.56 sec, max 0.65 sec, min 0.49 sec)
+[2025.09.08-01.15.26:215][875]LogShaderCompilers: Display:                                                 FLumenCardPS (compiled    4 times, average 0.43 sec, max 0.48 sec, min 0.38 sec)
+[2025.09.08-01.15.26:215][875]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    6 times, average 0.38 sec, max 0.44 sec, min 0.35 sec)
+[2025.09.08-01.15.26:215][875]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.09.08-01.15.26:215][875]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 34.89% of total time (compiled    5 times, average 1.05 sec, max 1.23 sec, min 0.94 sec)
+[2025.09.08-01.15.26:215][875]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 22.26% of total time (compiled    6 times, average 0.56 sec, max 0.65 sec, min 0.49 sec)
+[2025.09.08-01.15.26:215][875]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 15.20% of total time (compiled    6 times, average 0.38 sec, max 0.44 sec, min 0.35 sec)
+[2025.09.08-01.15.26:215][875]LogShaderCompilers: Display:                                                 FLumenCardPS - 11.45% of total time (compiled    4 times, average 0.43 sec, max 0.48 sec, min 0.38 sec)
+[2025.09.08-01.15.26:215][875]LogShaderCompilers: Display:                                                 FLumenCardVS - 9.79% of total time (compiled    4 times, average 0.37 sec, max 0.40 sec, min 0.34 sec)
+[2025.09.08-01.15.26:216][875]LogShaderCompilers: Display: === Material stats ===
+[2025.09.08-01.15.26:216][875]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.09.08-01.15.26:216][875]LogShaderCompilers: Display: Materials Translated:    134
+[2025.09.08-01.15.26:216][875]LogShaderCompilers: Display: Material Total Translate Time: 0.11 s
+[2025.09.08-01.15.26:216][875]LogShaderCompilers: Display: Material Translation Only: 0.05 s (43%)
+[2025.09.08-01.15.26:216][875]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2025.09.08-01.15.26:216][875]LogShaderCompilers: Display: Material Cache Hits: 27 (20%)
+[2025.09.08-01.15.26:216][875]LogShaderCompilers: Display: ================================================
+[2025.09.08-01.15.45:922][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2025.09.08-01.15.47:248][ 84]LogSlate: Window 'check_unit' being destroyed
+[2025.09.08-01.15.47:253][ 84]LogSlate: Window 'check_unit' being destroyed
+[2025.09.08-01.15.47:268][ 84]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.09.08-01.15.47:268][ 84]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.08-01.15.47:282][ 84]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.09.08-01.15.47:283][ 84]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.08-01.15.47:349][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2025.09.08-01.15.50:339][257]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/ui/check_list_ui.check_list_ui
+[2025.09.08-01.15.50:340][257]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_3
+[2025.09.08-01.15.50:346][257]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_4
+[2025.09.08-01.16.37:092][950]LogBlueprint: Error: [AssetLog] P:\metaverse_studio\fan_demo\Smart_manual_demo\smart_manual_mobile\smart_manual\Content\ui\check_list_ui.uasset: [Compiler] Event Dispatcher pin is not connected  Bind Event to Jump Click
+[2025.09.08-01.16.37:151][950]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2025.09.08-01.16.54:528][952]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2025.09.08-01.17.01:256][335]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2805.193359
+[2025.09.08-01.17.01:511][350]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.08-01.17.01:511][350]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2805.434326, Update Interval: 348.859528
+[2025.09.08-01.17.39:163][519]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2025.09.08-01.17.47:611][  3]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2025.09.08-01.17.58:333][642]LogSlate: Window 'check_list_ui' being destroyed
+[2025.09.08-01.17.58:347][642]LogSlate: Window 'check_list_ui' being destroyed
+[2025.09.08-01.17.58:357][642]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2025.09.08-01.17.58:357][642]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.08-01.17.58:372][642]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2025.09.08-01.17.58:372][642]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.08-01.17.58:433][642]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2025.09.08-01.18.00:958][787]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_5
+[2025.09.08-01.18.01:042][791]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_6
+[2025.09.08-01.18.01:121][795]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_7
+[2025.09.08-01.18.01:353][808]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Map/ManualMap.ManualMap:PersistentLevel.ManualMap
+[2025.09.08-01.18.01:355][808]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_8
+[2025.09.08-01.19.34:214][251]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.09.08-01.20.43:094][361]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2025.09.08-01.20.43:133][361]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Map/ManualMap_Auto2
+[2025.09.08-01.20.43:133][361]LogSavePackage: Moving '../../../../metaverse_studio/fan_demo/Smart_manual_demo/smart_manual_mobile/smart_manual/Saved/ManualMap_Auto2687367DD44E36250349E358383441268.tmp' to '../../../../metaverse_studio/fan_demo/Smart_manual_demo/smart_manual_mobile/smart_manual/Saved/Autosaves/Game/Map/ManualMap_Auto2.umap'
+[2025.09.08-01.20.43:136][361]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Map/ManualMap' took 0.083
+[2025.09.08-01.20.43:136][361]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.083
+[2025.09.08-01.20.43:136][361]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/ui/check_list_ui] ([2] browsable assets)...
+[2025.09.08-01.20.43:140][361]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/ui/check_list_ui.check_list_ui]
+[2025.09.08-01.20.43:140][361]OBJ SavePackage: Finished generating thumbnails for package [/Game/ui/check_list_ui]
+[2025.09.08-01.20.43:150][361]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ui/check_list_ui_Auto2
+[2025.09.08-01.20.43:150][361]LogSavePackage: Moving '../../../../metaverse_studio/fan_demo/Smart_manual_demo/smart_manual_mobile/smart_manual/Saved/check_list_ui_Auto2C532D77E4BB8FBBDD5AE0C86BE928BB9.tmp' to '../../../../metaverse_studio/fan_demo/Smart_manual_demo/smart_manual_mobile/smart_manual/Saved/Autosaves/Game/ui/check_list_ui_Auto2.uasset'
+[2025.09.08-01.20.43:151][361]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/ui/check_unit] ([2] browsable assets)...
+[2025.09.08-01.20.43:153][361]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/ui/check_unit.check_unit]
+[2025.09.08-01.20.43:153][361]OBJ SavePackage: Finished generating thumbnails for package [/Game/ui/check_unit]
+[2025.09.08-01.20.43:161][361]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ui/check_unit_Auto2
+[2025.09.08-01.20.43:161][361]LogSavePackage: Moving '../../../../metaverse_studio/fan_demo/Smart_manual_demo/smart_manual_mobile/smart_manual/Saved/check_unit_Auto2E88AE3F34A739D1240EB1A99C553C4CE.tmp' to '../../../../metaverse_studio/fan_demo/Smart_manual_demo/smart_manual_mobile/smart_manual/Saved/Autosaves/Game/ui/check_unit_Auto2.uasset'
+[2025.09.08-01.20.43:162][361]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ui/next_icon] ([1] browsable assets)...
+[2025.09.08-01.20.43:163][361]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/ui/next_icon.next_icon]
+[2025.09.08-01.20.43:163][361]OBJ SavePackage: Finished generating thumbnails for package [/Game/ui/next_icon]
+[2025.09.08-01.20.43:166][361]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ui/next_icon_Auto2
+[2025.09.08-01.20.43:166][361]LogSavePackage: Moving '../../../../metaverse_studio/fan_demo/Smart_manual_demo/smart_manual_mobile/smart_manual/Saved/next_icon_Auto2F2B5581041D837B06C93AE98072E755C.tmp' to '../../../../metaverse_studio/fan_demo/Smart_manual_demo/smart_manual_mobile/smart_manual/Saved/Autosaves/Game/ui/next_icon_Auto2.uasset'
+[2025.09.08-01.20.43:167][361]LogFileHelpers: Auto-saving content packages took 0.031
+[2025.09.08-01.23.47:456][411]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3211.401855
+[2025.09.08-01.23.47:706][426]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.08-01.23.47:706][426]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3211.635010, Update Interval: 348.597687
+[2025.09.08-01.30.23:385][724]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3607.316895
+[2025.09.08-01.30.23:638][739]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.08-01.30.23:638][739]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3607.550781, Update Interval: 340.097656
+[2025.09.08-01.32.06:507][836]LogDerivedDataCache: C:/Users/이종만/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.09.08-01.36.38:377][969]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3982.310059
+[2025.09.08-01.36.38:651][985]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.08-01.36.38:651][985]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3982.564941, Update Interval: 327.580200
+[2025.09.08-01.41.39:591][799]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2025.09.08-01.41.40:697][799]LogSlate: Window 'Save Content' being destroyed
+[2025.09.08-01.41.40:709][799]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.08-01.41.40:865][799]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2025.09.08-01.41.40:896][799]LogSavePackage: Moving output files for package: /Game/Map/ManualMap
+[2025.09.08-01.41.40:897][799]LogSavePackage: Moving '../../../../metaverse_studio/fan_demo/Smart_manual_demo/smart_manual_mobile/smart_manual/Saved/ManualMapE562D5D14838A5E5291F46AC42585DBC.tmp' to '../../../../metaverse_studio/fan_demo/Smart_manual_demo/smart_manual_mobile/smart_manual/Content/Map/ManualMap.umap'
+[2025.09.08-01.41.40:915][799]LogFileHelpers: Saving map 'ManualMap' took 0.112
+[2025.09.08-01.41.40:916][799]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ui/check_list_ui] ([2] browsable assets)...
+[2025.09.08-01.41.40:916][799]OBJ SavePackage: Finished generating thumbnails for package [/Game/ui/check_list_ui]
+[2025.09.08-01.41.40:916][799]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ui/check_list_ui" FILE="../../../../metaverse_studio/fan_demo/Smart_manual_demo/smart_manual_mobile/smart_manual/Content/ui/check_list_ui.uasset" SILENT=true
+[2025.09.08-01.41.40:926][799]LogSavePackage: Moving output files for package: /Game/ui/check_list_ui
+[2025.09.08-01.41.40:927][799]LogSavePackage: Moving '../../../../metaverse_studio/fan_demo/Smart_manual_demo/smart_manual_mobile/smart_manual/Saved/check_list_uiF8EE7BBA461EDEF6A615C2BEC25AFDCC.tmp' to '../../../../metaverse_studio/fan_demo/Smart_manual_demo/smart_manual_mobile/smart_manual/Content/ui/check_list_ui.uasset'
+[2025.09.08-01.41.40:928][799]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ui/check_unit] ([2] browsable assets)...
+[2025.09.08-01.41.40:928][799]OBJ SavePackage: Finished generating thumbnails for package [/Game/ui/check_unit]
+[2025.09.08-01.41.40:928][799]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ui/check_unit" FILE="../../../../metaverse_studio/fan_demo/Smart_manual_demo/smart_manual_mobile/smart_manual/Content/ui/check_unit.uasset" SILENT=true
+[2025.09.08-01.41.40:937][799]LogSavePackage: Moving output files for package: /Game/ui/check_unit
+[2025.09.08-01.41.40:938][799]LogSavePackage: Moving '../../../../metaverse_studio/fan_demo/Smart_manual_demo/smart_manual_mobile/smart_manual/Saved/check_unitB5A414F447A6A5F15F031F91C8A9FE97.tmp' to '../../../../metaverse_studio/fan_demo/Smart_manual_demo/smart_manual_mobile/smart_manual/Content/ui/check_unit.uasset'
+[2025.09.08-01.41.40:939][799]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ui/next_icon] ([1] browsable assets)...
+[2025.09.08-01.41.40:941][799]OBJ SavePackage: Finished generating thumbnails for package [/Game/ui/next_icon]
+[2025.09.08-01.41.40:941][799]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ui/next_icon" FILE="../../../../metaverse_studio/fan_demo/Smart_manual_demo/smart_manual_mobile/smart_manual/Content/ui/next_icon.uasset" SILENT=true
+[2025.09.08-01.41.40:945][799]LogSavePackage: Moving output files for package: /Game/ui/next_icon
+[2025.09.08-01.41.40:945][799]LogSavePackage: Moving '../../../../metaverse_studio/fan_demo/Smart_manual_demo/smart_manual_mobile/smart_manual/Saved/next_icon65738B824EF2F9528996D792192DC5C3.tmp' to '../../../../metaverse_studio/fan_demo/Smart_manual_demo/smart_manual_mobile/smart_manual/Content/ui/next_icon.uasset'
+[2025.09.08-01.41.40:962][799]LogFileHelpers: InternalPromptForCheckoutAndSave took 251.576 ms
+[2025.09.08-01.41.41:042][799]LogContentValidation: Display: Starting to validate 4 assets
+[2025.09.08-01.41.41:042][799]LogContentValidation: Enabled validators:
+[2025.09.08-01.41.41:042][799]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.08-01.41.41:042][799]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.08-01.41.41:042][799]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.08-01.41.41:042][799]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.08-01.41.41:042][799]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.08-01.41.41:042][799]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.08-01.41.41:043][799]AssetCheck: /Game/Map/ManualMap Validating asset
+[2025.09.08-01.41.41:044][799]AssetCheck: /Game/ui/check_list_ui Validating asset
+[2025.09.08-01.41.41:045][799]AssetCheck: /Game/ui/check_unit Validating asset
+[2025.09.08-01.41.41:045][799]AssetCheck: /Game/ui/next_icon Validating asset
+[2025.09.08-01.41.44:572][  4]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.09.08-01.41.56:380][710]LogLiveCoding: Display:    P:\metaverse_studio\fan_demo\Smart_manual_demo\smart_manual_mobile\smart_manual\Binaries\Win64\UnrealEditor-smart_manual.patch_1.lib 라이브러리 및 P:\metaverse_studio\fan_demo\Smart_manual_demo\smart_manual_mobile\smart_manual\Binaries\Win64\UnrealEditor-smart_manual.patch_1.exp 개체를 생성하고 있습니다.
+[2025.09.08-01.41.56:516][712]LogClass: UPackage /Script/smart_manual Reload.
+[2025.09.08-01.41.56:516][712]LogClass: UClass SmartPartManager Reload.
+[2025.09.08-01.41.56:519][712]LogClass: Could not find existing class SmartPartManager in package /Script/smart_manual for reload, assuming new or modified class
+[2025.09.08-01.41.56:519][712]LogClass: Function ActivatePart is new or belongs to a modified class.
+[2025.09.08-01.41.56:520][712]LogClass: Function DeactivateAll is new or belongs to a modified class.
+[2025.09.08-01.41.56:520][712]LogClass: Function get_cheak_list_desc is new or belongs to a modified class.
+[2025.09.08-01.41.56:520][712]LogClass: Function get_current_desc_text is new or belongs to a modified class.
+[2025.09.08-01.41.56:520][712]LogClass: Function NextPart is new or belongs to a modified class.
+[2025.09.08-01.41.56:520][712]LogClass: Function PrevPart is new or belongs to a modified class.
+[2025.09.08-01.41.56:520][712]LogClass: Function SetPartStateByIndex is new or belongs to a modified class.
+[2025.09.08-01.41.56:533][712]Re-instancing SmartPartManager after reload.
+[2025.09.08-01.41.56:824][712]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2025.09.08-01.41.57:537][713]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 1 class unchanged, 4 functions remapped
+[2025.09.08-01.41.57:537][713]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2025.09.08-01.42.58:265][342]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4362.194336
+[2025.09.08-01.42.58:532][358]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.08-01.42.58:532][358]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4362.443359, Update Interval: 304.370850
+[2025.09.08-01.44.04:890][148]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2025.09.08-01.44.06:790][253]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2025.09.08-01.44.06:803][253]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.08-01.44.06:803][253]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_ManualMap
+[2025.09.08-01.44.06:809][253]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004378s)
+[2025.09.08-01.44.06:809][253]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/ManualMap.ManualMap to /Game/Map/UEDPIE_0_ManualMap.ManualMap (0.004653s)
+[2025.09.08-01.44.06:872][253]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2025.09.08-01.44.06:879][253]LogChaosDD: Creating Chaos Debug Draw Scene for world ManualMap
+[2025.09.08-01.44.06:881][253]LogPlayLevel: PIE: World Init took: (0.002076s)
+[2025.09.08-01.44.06:882][253]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2025.09.08-01.44.06:883][253]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.08-01.44.06:883][253]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.08-01.44.06:883][253]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.08-01.44.06:883][253]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.08-01.44.06:883][253]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.08-01.44.06:883][253]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.08-01.44.06:883][253]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.08-01.44.06:883][253]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.08-01.44.06:883][253]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.08-01.44.06:883][253]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.08-01.44.06:883][253]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.08-01.44.06:888][253]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.08-01.44.08:356][253]LogAudioMixer: Display: Using Audio Hardware Device 스피커(Realtek(R) Audio)
+[2025.09.08-01.44.08:356][253]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.08-01.44.08:356][253]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.08-01.44.08:356][253]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.08-01.44.08:357][253]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2025.09.08-01.44.08:357][253]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2025.09.08-01.44.08:361][253]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2025.09.08-01.44.08:361][253]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2025.09.08-01.44.08:361][253]LogInit: FAudioDevice initialized with ID 5.
+[2025.09.08-01.44.08:361][253]LogAudio: Display: Audio Device (ID: 5) registered with world 'ManualMap'.
+[2025.09.08-01.44.08:362][253]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2025.09.08-01.44.08:414][253]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.08-01.44.08:415][253]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.09.08-01.44.08:416][253]LogWorld: Bringing World /Game/Map/UEDPIE_0_ManualMap.ManualMap up for play (max tick rate 60) at 2025.09.08-10.44.08
+[2025.09.08-01.44.08:417][253]LogWorld: Bringing up level for play took: 0.001245
+[2025.09.08-01.44.08:421][253]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2025.09.08-01.44.08:426][253]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.09.08-01.44.08:427][253]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.09.08-01.44.08:433][253]PIE: Server logged in
+[2025.09.08-01.44.08:440][253]PIE: Play in editor total start time 1.639 seconds.
+[2025.09.08-01.44.08:702][257]LogSlate: Took 0.000504 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.09.08-01.44.53:549][873]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.08-01.44.53:549][873]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_ManualMap
+[2025.09.08-01.44.53:549][873]LogSlate: Window 'smart_manual Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.09.08-01.44.53:559][873]LogWorld: UWorld::CleanupWorld for ManualMap, bSessionEnded=true, bCleanupResources=true
+[2025.09.08-01.44.53:560][873]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.08-01.44.53:566][873]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.08-01.44.53:577][873]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.08-01.44.53:603][873]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2025.09.08-01.44.53:604][873]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2025.09.08-01.44.53:609][873]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2025.09.08-01.44.53:623][873]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2025.09.08-01.44.53:666][874]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2025.09.08-01.44.56:455][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2025.09.08-01.44.57:467][ 40]LogSlate: Window 'Save Content' being destroyed
+[2025.09.08-01.44.57:478][ 40]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.08-01.44.57:627][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2025.09.08-01.44.57:657][ 40]LogSavePackage: Moving output files for package: /Game/Map/ManualMap
+[2025.09.08-01.44.57:658][ 40]LogSavePackage: Moving '../../../../metaverse_studio/fan_demo/Smart_manual_demo/smart_manual_mobile/smart_manual/Saved/ManualMapE695BD264ABCC4D5FE6C4094F087DAE4.tmp' to '../../../../metaverse_studio/fan_demo/Smart_manual_demo/smart_manual_mobile/smart_manual/Content/Map/ManualMap.umap'
+[2025.09.08-01.44.57:674][ 40]LogFileHelpers: Saving map 'ManualMap' took 0.107
+[2025.09.08-01.44.57:684][ 40]LogFileHelpers: InternalPromptForCheckoutAndSave took 205.914 ms (total: 457.491 ms)
+[2025.09.08-01.44.57:769][ 40]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.08-01.44.57:769][ 40]LogContentValidation: Enabled validators:
+[2025.09.08-01.44.57:769][ 40]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.08-01.44.57:769][ 40]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.08-01.44.57:769][ 40]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.08-01.44.57:769][ 40]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.08-01.44.57:769][ 40]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.08-01.44.57:769][ 40]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.08-01.44.57:769][ 40]AssetCheck: /Game/Map/ManualMap Validating asset

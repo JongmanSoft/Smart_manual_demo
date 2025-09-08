@@ -39,9 +39,6 @@ public:
     UFUNCTION(BlueprintCallable, Category = "Parts")
     void DeactivateAll();
 
-    UFUNCTION(BlueprintCallable, Category = "Parts")
-    void SetPartStateByIndex(int32 TargetIndex);
-
     UFUNCTION(BlueprintCallable, Category = "desc")
     TArray<FString> get_cheak_list_desc();
 
