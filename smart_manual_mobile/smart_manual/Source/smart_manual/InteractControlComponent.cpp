@@ -1,60 +1,60 @@
 // InteractControlComponent.cpp
 #include "InteractControlComponent.h"
-#include "TimerManager.h"
-#include "Engine/World.h"
 
 UInteractControlComponent::UInteractControlComponent()
 {
-	PrimaryComponentTick.bCanEverTick = false; // 타이머만 사용
+	PrimaryComponentTick.bCanEverTick = false;
 }
 
 void UInteractControlComponent::BeginPlay()
 {
 	Super::BeginPlay();
-}
-
-void UInteractControlComponent::EndPlay(const EEndPlayReason::Type EndPlayReason)
-{
-	if (UWorld* W = GetWorld())
-	{
-		W->GetTimerManager().ClearTimer(HintTimer);
-	}
-	Super::EndPlay(EndPlayReason);
-}
-
-// ------------------ 설정 ------------------
-
-void UInteractControlComponent::SetInteractMode(EInteractMode NewMode, FAxisConstraint Axis, float InRangeOrAngle)
-{
-	InteractMode = NewMode;
-	AxisConstraint = Axis;
-	RangeOrAngle = FMath::Max(1.f, InRangeOrAngle);
 	ResetState();
 }
 
-// ------------------ 힌트 ------------------
-
-void UInteractControlComponent::ShowHint(EHintIcon Icon, FText Text, float Duration)
+// ===== 가이드 =====
+void UInteractControlComponent::BeginInteract()
 {
-	HintIcon = Icon;
-	HintText = Text;
-
-	if (UWorld* W = GetWorld())
+	if (!bGuidingVisible)
 	{
-		W->GetTimerManager().ClearTimer(HintTimer);
-		W->GetTimerManager().SetTimer(HintTimer, [this]()
-			{
-				HintIcon = EHintIcon::None;
-				HintText = FText::GetEmpty();
-			}, Duration, false);
+		BP_ShowGuide(static_cast<int32>(DefaultIcon), DefaultText);
+		bGuidingVisible = true;
+	}
+	BP_SetProgress(Progress01);
+}
+
+void UInteractControlComponent::EndInteract()
+{
+	// 필요하면 BP에서 이 타이밍에 가이드 숨김/유지 결정
+}
+
+void UInteractControlComponent::SetGuide(EHintIcon Icon, FText Text)
+{
+	BP_UpdateGuide(static_cast<int32>(Icon), Text);
+	bGuidingVisible = true;
+}
+
+void UInteractControlComponent::HideGuide()
+{
+	BP_HideGuide();
+	bGuidingVisible = false;
+}
+
+void UInteractControlComponent::EnsureGuideVisible()
+{
+	if (!bGuidingVisible)
+	{
+		BP_ShowGuide(static_cast<int32>(DefaultIcon), DefaultText);
+		bGuidingVisible = true;
 	}
 }
 
-// ------------------ 입력 ------------------
-
+// ===== 입력 =====
 void UInteractControlComponent::InputTap()
 {
 	if (bCompleted) return;
+
+	EnsureGuideVisible();
 
 	if (InteractMode == EInteractMode::Press || InteractMode == EInteractMode::Toggle)
 	{
@@ -68,15 +68,17 @@ void UInteractControlComponent::InputDragDelta(FVector2D Delta)
 {
 	if (bCompleted || InteractMode != EInteractMode::Slide) return;
 
+	EnsureGuideVisible();
+
 	float AxisValue = 0.f;
-	if (AxisConstraint.X)      AxisValue = Delta.X;
+	if (AxisConstraint.X) AxisValue = Delta.X;
 	else if (AxisConstraint.Y) AxisValue = Delta.Y;
-	else if (AxisConstraint.Z) AxisValue = (FMath::Abs(Delta.X) > FMath::Abs(Delta.Y)) ? Delta.X : Delta.Y;
+	else
+		AxisValue = (FMath::Abs(Delta.X) > FMath::Abs(Delta.Y)) ? Delta.X : Delta.Y;
 
 	DragAccum += AxisValue;
 
-	// 기준 300px = 100% (필요시 조정)
-	const float NeededPx = 300.f;
+	const float NeededPx = (RangeOrAngle > 0.f) ? RangeOrAngle : 300.f;
 	Progress01 = FMath::Clamp(FMath::Abs(DragAccum) / NeededPx, 0.f, 1.f);
 	BroadcastProgress();
 
@@ -87,15 +89,18 @@ void UInteractControlComponent::InputRotateDelta(float AngleDeltaDeg)
 {
 	if (bCompleted || InteractMode != EInteractMode::Rotate) return;
 
+	EnsureGuideVisible();
+
 	RotateAccumDeg += AngleDeltaDeg;
-	Progress01 = FMath::Clamp(FMath::Abs(RotateAccumDeg) / RangeOrAngle, 0.f, 1.f);
+	const float TargetDeg = FMath::Max(5.f, RangeOrAngle);
+
+	Progress01 = FMath::Clamp(FMath::Abs(RotateAccumDeg) / TargetDeg, 0.f, 1.f);
 	BroadcastProgress();
 
 	if (Progress01 >= 1.f) MarkCompleted();
 }
 
-// ------------------ 상태 ------------------
-
+// ===== 진행/리셋 =====
 void UInteractControlComponent::ResetState()
 {
 	Progress01 = 0.f;
@@ -105,15 +110,15 @@ void UInteractControlComponent::ResetState()
 	BroadcastProgress();
 }
 
-// ------------------ 헬퍼 ------------------
-
 void UInteractControlComponent::BroadcastProgress()
 {
 	OnProgress.Broadcast(Progress01);
+	BP_SetProgress(Progress01); // 진행바는 BP에서
 }
 
 void UInteractControlComponent::MarkCompleted()
 {
 	bCompleted = true;
 	OnCompleted.Broadcast();
+	BP_OnCompleted(); // BP에서 “You did it!” / 성공연출 / 원복 처리
 }
