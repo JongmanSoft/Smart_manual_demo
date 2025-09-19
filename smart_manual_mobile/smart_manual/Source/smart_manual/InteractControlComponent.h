@@ -7,8 +7,9 @@
 UENUM(BlueprintType)
 enum class EInteractMode : uint8 { Press, Slide, Rotate, Toggle };
 
-UENUM(BlueprintType)
-enum class EHintIcon : uint8 { None, Click, Grab, RotateCW, RotateCCW, MoveUp, MoveDown, MoveLeft, MoveRight };
+UENUM(BlueprintType, Blueprintable)
+enum class EHintIcon : uint8 { None, Click, MoveUp, MoveDown, MoveLeft, MoveRight, Rotate };
+							// 0	   1	  2			3		4	        5
 
 USTRUCT(BlueprintType)
 struct FAxisConstraint
@@ -22,7 +23,7 @@ struct FAxisConstraint
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnInteractProgress, float, Progress01);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnInteractCompleted);
 
-UCLASS(ClassGroup = (Custom), meta = (BlueprintSpawnableComponent))
+UCLASS(BlueprintType, Blueprintable, ClassGroup = (Custom), meta = (BlueprintSpawnableComponent))
 class SMART_MANUAL_API UInteractControlComponent : public UActorComponent
 {
 	GENERATED_BODY()
@@ -73,6 +74,21 @@ public:
 	UFUNCTION(BlueprintImplementableEvent, Category = "Interact|UI") void BP_HideGuide();
 	UFUNCTION(BlueprintImplementableEvent, Category = "Interact|UI") void BP_SetProgress(float Percent01);
 	UFUNCTION(BlueprintImplementableEvent, Category = "Interact|UI") void BP_OnCompleted();
+
+	UFUNCTION(BlueprintCallable, Category = "Interact|UI", meta = (DisplayName = "Show Guide"))
+	void ShowGuideBP(EHintIcon Icon, const FText& Text);
+
+	UFUNCTION(BlueprintCallable, Category = "Interact|UI", meta = (DisplayName = "Update Guide"))
+	void UpdateGuideBP(EHintIcon Icon, const FText& Text);
+
+	UFUNCTION(BlueprintCallable, Category = "Interact|UI", meta = (DisplayName = "Hide Guide"))
+	void HideGuideBP();
+
+	UFUNCTION(BlueprintCallable, Category = "Interact|UI", meta = (DisplayName = "Set Progress (Guide)"))
+	void SetProgressBP(float Percent01);
+
+	UFUNCTION(BlueprintCallable, Category = "Interact|UI", meta = (DisplayName = "Fire Completed (Guide)"))
+	void FireCompletedBP();
 
 protected:
 	virtual void BeginPlay() override;

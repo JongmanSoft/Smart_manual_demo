@@ -122,3 +122,35 @@ void UInteractControlComponent::MarkCompleted()
 	OnCompleted.Broadcast();
 	BP_OnCompleted(); // BP에서 “You did it!” / 성공연출 / 원복 처리
 }
+
+void UInteractControlComponent::ShowGuideBP(EHintIcon Icon, const FText& Text)
+{
+	BP_ShowGuide(static_cast<int32>(Icon), Text);
+	bGuidingVisible = true;        // 내부 상태 갱신
+}
+
+void UInteractControlComponent::UpdateGuideBP(EHintIcon Icon, const FText& Text)
+{
+	BP_UpdateGuide(static_cast<int32>(Icon), Text);
+	bGuidingVisible = true;
+}
+
+void UInteractControlComponent::HideGuideBP()
+{
+	BP_HideGuide();
+	bGuidingVisible = false;
+}
+
+void UInteractControlComponent::SetProgressBP(float Percent01)
+{
+	Progress01 = FMath::Clamp(Percent01, 0.f, 1.f);
+	BP_SetProgress(Progress01);
+	OnProgress.Broadcast(Progress01); // 외부에서도 들을 수 있게
+}
+
+void UInteractControlComponent::FireCompletedBP()
+{
+	bCompleted = true;
+	BP_OnCompleted();
+	OnCompleted.Broadcast();
+}
