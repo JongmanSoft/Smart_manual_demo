@@ -99,3 +99,7 @@ pack/Windows/Engine/Binaries/ThirdParty/NVIDIA/NVaftermath/Win64/GFSDK_Aftermath
 pack/Windows/Engine/Binaries/ThirdParty/MsQuic/v220/win64/msquic.dll
 pack/Windows/Engine/Binaries/ThirdParty/DbgHelp/dbghelp.dll
 smart_manual_mobile/smart_manual/smart_manual.uproject
+smart_manual_mobile/smart_manual/Binaries/Win64/UnrealEditor-smart_manual.pdb
+smart_manual_mobile/smart_manual/Binaries/Win64/UnrealEditor-smart_manual.exp
+smart_manual_mobile/smart_manual/Binaries/Win64/UnrealEditor-smart_manual.pdb
+smart_manual_mobile/smart_manual/Binaries/Win64/UnrealEditor-smart_manual.exp
