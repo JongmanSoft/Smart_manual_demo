@@ -103,3 +103,8 @@ smart_manual_mobile/smart_manual/Binaries/Win64/UnrealEditor-smart_manual.pdb
 smart_manual_mobile/smart_manual/Binaries/Win64/UnrealEditor-smart_manual.exp
 smart_manual_mobile/smart_manual/Binaries/Win64/UnrealEditor-smart_manual.pdb
 smart_manual_mobile/smart_manual/Binaries/Win64/UnrealEditor-smart_manual.exp
+
+# Compiled source files for the engine to use
+MySmartManualSample_PC/Intermediate/*
+MySmartManualSample_PC/DerivedDataCache/*
+MySmartManualSample_PC/Saved/*
