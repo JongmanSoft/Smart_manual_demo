@@ -108,3 +108,5 @@ smart_manual_mobile/smart_manual/Binaries/Win64/UnrealEditor-smart_manual.exp
 MySmartManualSample_PC/Intermediate/*
 MySmartManualSample_PC/DerivedDataCache/*
 MySmartManualSample_PC/Saved/*
+/MySmartManualSample_PC/Saved
+/MySmartManualSample_PC/Saved
